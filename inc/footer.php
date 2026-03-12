@@ -17,5 +17,3 @@
 </article>
 
 <!-- require_once 'inc/footer.php' -->
-
-<!-- #1A2B23	#8CC63F	#4D7C47	#F2F7ED	#C2D9AD #0A9E0D --> 
