@@ -9,12 +9,45 @@ body {
     background-color: #C8FFD1;
 }
 
-header {
+/* main Logo! */
+.logo img {
+    height: 15vh;
 
 }
 
-footer {
 
+/* Header Nav */
+
+.Header-BGC {
+    background-color: 0A9E0D ;
+}
+
+
+
+
+
+.navLinks a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: solid green;
+    width: fit-content;
+    color: black;
+    margin-inline-end: 10px;
+    padding: 1px;
+    font-family: cursive;
+    font-size:medium;
+}
+
+
+/* end navbar css */
+
+
+
+
+
+footer {
+    /*in progress */
+    width: fit-content;
 }
 
 .navBar {
@@ -23,9 +56,8 @@ footer {
     align-items: center;
 }
 
-.logo img {
-    height: 8vh;
-}
+
+
 
 @media (max-width: 767.9px) {
 
