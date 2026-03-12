@@ -9,13 +9,13 @@ body {
     background-color: #C8FFD1;
 }
 
-/* header {
+header {
 
 }
 
 footer {
 
-} */
+}
 
 .navBar {
     display: flex;
@@ -27,51 +27,6 @@ footer {
     height: 8vh;
 }
 
-.hamburgerMenu {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6vh;
-}
-
-.bar {
-    display: block;
-    width: 5vw;
-    height: 0.5vh;
-    background: rgb(0, 0, 0);
-    transition: 0.4s;
-}
-
-.navLinks {
-    display: none;
-}
-.navLinks.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 8vh;
-    left: 0;
-    background-color: yellow;
-    width: 100vw;
-    min-height: calc(100vh - 8vh);
-}
-
-.hamburgerMenu.active .bar:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-}
-
-.hamburgerMenu.active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburgerMenu.active .bar:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-}
-main.hidden {
-    display: none;
-}
 
 @media (max-width: 767.9px) {
 

@@ -2,11 +2,11 @@
     <picture class="logo">
         <img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo">
     </picture>
-    <button class="hamburgerMenu">
+    <!-- <button class="hamburgerMenu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-    </button>
+    </button> -->
     <nav class="navLinks">
         <a href="index.php">Home</a>
         <a href="menu.php">Menu</a>

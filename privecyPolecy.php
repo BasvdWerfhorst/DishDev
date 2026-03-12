@@ -6,8 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-<?php require_once 'inc/polecyHeader.php' ?>
-<main></main>
-<?php require_once 'inc/polecyFooter.php' ?>
+<header>
+    <?php require_once 'inc/polecyHeader.php' ?>   
+</header>
+<main>
+
+</main>
+<footer>
+   <?php require_once 'inc/polecyFooter.php' ?>
+</footer>
 </body>
 </html>
