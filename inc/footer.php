@@ -19,4 +19,4 @@
     <p class="made-by">© Gemaakt door </p>
 </article>
 
-
+<!-- require_once 'inc/footer.php' -->
