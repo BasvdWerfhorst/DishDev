@@ -12,7 +12,8 @@ body {
 /* main Logo! */
 .logo img {
     height: 15vh;
-
+    padding: 0.2rem;
+    position: relative;
 }
 
 
@@ -23,19 +24,20 @@ body {
 }
 
 
-
+.navBar {
+    margin-right: 8vw;
+}
 
 
 .navLinks a {
-    font-size: 1.5rem;
     text-decoration: none;
     border: solid green;
     width: fit-content;
     color: black;
-    margin-inline-end: 10px;
+    margin-inline-end: 6vw;
     padding: 1px;
     font-family: cursive;
-    font-size:medium;
+    font-size: 1.4rem;
 }
 
 
