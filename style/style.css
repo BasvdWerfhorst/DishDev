@@ -28,16 +28,15 @@ body {
     border: solid green;
     width: fit-content;
     color: black;
-    margin-inline-end: 10px;
+    margin-inline-end: 10vh;
     padding: 1px;
     font-family: cursive;
-    font-size: medium;
+    font-size: larger;
     transition: 0.3 ease;
 }
 
 .navLinks a:hover {
-    opacity: 0.4;
-    background-color: whitesmoke;
+    color: greenyellow;
 }
 
 
