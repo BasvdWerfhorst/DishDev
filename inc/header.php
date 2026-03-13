@@ -1,4 +1,5 @@
 
+<html>
 <header class="Header-BGC">
 <section class="navBar">
     <picture class="logo img">
@@ -19,4 +20,5 @@
     
 </section>
 </header>
+</html>
 <!--require_once 'inc/header.php'-->
