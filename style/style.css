@@ -9,35 +9,7 @@ body {
     background-color: #C8FFD1;
 }
 
-/* main Logo! */
-.logo img {
-    height: 15vh;
 
-}
-
-
-/* Header Nav */
-
-.Header-BGC {
-    background-color: #0A9E0D;
-}
-
-.navLinks a {
-    font-size: 1.5rem;
-    text-decoration: none;
-    border: solid green;
-    width: fit-content;
-    color: black;
-    margin-inline-end: 10vh;
-    padding: 1px;
-    font-family: cursive;
-    font-size: larger;
-    transition: 0.3 ease;
-}
-
-.navLinks a:hover {
-    color: greenyellow;
-}
 
 
 /* end navbar css */
@@ -65,16 +37,46 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .hamburgerMenu { display: none; }
-    .navLinks { display: flex; flex-direction: row; position: static; }
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .hamburgerMenu { display: none; }
-    .navLinks { display: flex; flex-direction: row; position: static; }
+
 }
 
 @media (min-width: 1200px) {
-    .hamburgerMenu { display: none; }
-    .navLinks { display: flex; flex-direction: row; position: static; }
+    /* main Logo! */
+.logo img {
+    height: 15vh;
+    padding: 5px;
+
+}
+
+
+/* Header Nav */
+
+.Header-BGC {
+    background-color: #0A9E0D;
+}
+
+.navLinks a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: solid green;
+    width: fit-content;
+    color: black;
+    margin-inline-end: 12vh;
+    padding: 1px;
+    font-family: cursive;
+    font-size: larger;
+    transition: 0.3 ease;
+}
+
+.navLinks a:hover {
+    color: greenyellow;
+}
+
+.navLinks {
+    margin-right: 8vw;
+}
 }
