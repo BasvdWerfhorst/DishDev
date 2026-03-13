@@ -1,10 +1,9 @@
-
 <header class="Header-BGC">
 <section class="navBar">
     <picture class="logo img">
         <img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo">
     </picture>
-    <!-- <button class="hamburgerMenu">
+     <!-- <button class="hamburgerMenu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>

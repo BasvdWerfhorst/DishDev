@@ -35,12 +35,16 @@ body {
     width: fit-content;
     color: black;
     margin-inline-end: 6vw;
-    padding: 1px;
+    padding: 8px 12px;
     font-family: cursive;
     font-size: 1.4rem;
+    transition: all 0.3 ease;
 }
 
-
+.navLinks a:hover {
+     background-color: blue;
+     color: #0A9E0D;
+}
 /* end navbar css */
 
 
