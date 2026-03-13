@@ -31,7 +31,7 @@ body {
 
 .navLinks a {
     text-decoration: none;
-    border: solid green;
+    border: solid pink;
     width: fit-content;
     color: black;
     margin-inline-end: 6vw;
@@ -43,7 +43,7 @@ body {
 
 .navLinks a:hover {
      background-color: blue;
-     color: #0A9E0D;
+     color: red;
 }
 /* end navbar css */
 
