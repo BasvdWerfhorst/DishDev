@@ -9,7 +9,7 @@
         <!-- . Web Info Copyright ect . -->
         <article class="footerbox-4">This website does not claim ownership of any copyrighted materials displayed unless otherwise stated. All content, including images, text, videos, and other media, belongs to their respective owners.</article>
         <!-- . Links(provecy, contact ect.) . -->
-        <article class="footerbox-5">Privacy <br> Contact <br> Vacatures</article>
+        <article class="footerbox-5"> <a href="contact.php" >Privacy</a> <br> <a href="contact.php" >contact</a> <br> <a href="vacatures.php" >Vacatures</a></article>
         <!-- . Wessel & bas . -->
         <article class="footerbox-6">Wessel & Bas</article>
         <!-- . Copyright mark . -->
