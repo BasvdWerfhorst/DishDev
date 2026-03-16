@@ -1,12 +1,13 @@
 
-<header >
+
 <section class="navBar">
     <picture class="logo img">
-        <img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo">
-        <article>
-            Vegan 
-        </article>
+        <img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo">  
     </picture>
+
+    <a href="index.php" style="text-decoration: none;">
+         <p class="logo-Text">Vegan Food <br> Amsterdam</p>
+    </a>
 
     <!-- <button class="hamburgerMenu">
         <span class="bar"></span>
@@ -21,7 +22,6 @@
         <a href="vacatures.php">Vacatures</a>
     </nav>
     
-</section>
-</header>
+</section> 
 
 <!--require_once 'inc/header.php'-->

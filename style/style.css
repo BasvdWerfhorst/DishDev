@@ -49,15 +49,30 @@ footer {
 .logo img {
     height: 15vh;
     padding: 5px;
-
+    display: flex;
+    position: relative;
 }
 
+.logo-Text {
+    color: white;
+    font-family: cursive;
+    font-size: x-large;
+    width: fit-content;
+    transition: 0.8 ease;
+}
+
+.logo-Text:hover {
+    color: greenyellow;
+}
 
 /* Header Nav */
 
 .Header-BGC {
     background-color: #0A9E0D;
+    display: flex;
 }
+
+
 
 .navLinks a {
     font-size: 1.5rem;
@@ -65,7 +80,7 @@ footer {
     border: solid green;
     width: fit-content;
     color: black;
-    margin-inline-end: 12vh;
+    margin-inline-end: 8vh;
     padding: 1px;
     font-family: cursive;
     font-size: larger;
@@ -77,6 +92,6 @@ footer {
 }
 
 .navLinks {
-    margin-right: 8vw;
+    margin-left: 20vw;
 }
 }
