@@ -45,7 +45,10 @@ footer {
 }
 
 @media (min-width: 1200px) {
-    /* main Logo! */
+
+
+ /* main Logo! */
+
 .logo img {
     height: 15vh;
     padding: 5px;
@@ -72,8 +75,6 @@ footer {
     display: flex;
 }
 
-
-
 .navLinks a {
     font-size: 1.5rem;
     text-decoration: none;
@@ -95,3 +96,76 @@ footer {
     margin-left: 20vw;
 }
 }
+
+/* Footer */
+
+.footer-BGC {
+    background-color: #0A9E0D;
+    max-width: fit-content;
+    height: 20vh;
+    margin-top: 100%;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 50px 50px 50px;
+    margin-right: 17.5vh; 
+}
+
+.footerbox-1 {
+   margin-left: 45%;
+   bottom: 0;
+   color: white;
+   font-family: cursive;
+}
+
+.footerbox-2 {
+    margin-left: 45%;
+    color: white;
+    font-family: cursive;
+}
+
+.footerbox-3 {
+    margin-left: 45%;
+    color: white;
+    font-family: cursive;
+}
+
+.footerbox-4 {
+    margin-left: 45%;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: x-small;
+    width: 20rem;
+    align-items: center;
+}
+
+.footerbox-5 {
+    margin-left: 45%;
+    color: white;  
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.footerbox-6 {
+    margin-left: 45%;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.footerbox-7 {
+    margin-left: 45%;
+    color: white;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.footerbox-8 {
+    margin-left: 45%;
+    color: white;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
