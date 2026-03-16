@@ -14,9 +14,14 @@
         <article class="footerbox-6">Wessel & Bas</article>
         <!-- . Copyright mark . -->
         <article class="footerbox-7">© all rights reserved by Vegan Food</article>
-        <!-- .Social media logo's?. -->
-        <article class="footerbox-8"></article>
     </section>
+
+    <section>
+
+
+
+    </section>
+
 </footer>
 
 
