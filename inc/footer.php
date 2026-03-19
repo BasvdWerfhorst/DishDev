@@ -14,11 +14,13 @@
         <article class="footerbox-6">Wessel & Bas</article>
         <!-- . Copyright mark . -->
         <article class="footerbox-7">© all rights reserved by Vegan Food</article>
+        <!-- Img Icons -->
+            <article class="footer-icons">
+                <img src="img\Social\Insta_ICon_NB-removebg-preview.png" alt="Instagram Icon">
+                <img src="img\Social\Facebook_Icon_NB-removebg-preview.png" alt="Facebook Icon">
+                <img src="img\Social\YT_icon_NB-removebg-preview.png" alt="Youtube Icon">
+            </article>
     </section>
-
-
-    <img src="img\Social\Insta_ICon_NB-removebg-preview.png" alt="Instagram logo">
-
 </footer>
 
 

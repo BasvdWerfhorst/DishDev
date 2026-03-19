@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DishDev</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="telefoon_menu.js" defer></script>
+    <script src="indexpage.js" defer></script>
 </head>
 <body>
     
@@ -13,9 +13,14 @@
 <?php require_once 'inc/header.php' ?>
 </header>
 
-<main>
+    <main>
 
-</main>
+
+
+
+
+      
+    </main>
 
 <footer>
 <?php require_once 'inc/footer.php' ?>
