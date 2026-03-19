@@ -15,15 +15,15 @@
 </header>
 
 <main>
-<section class="menuSection">
-    <button class="menuButton" onclick="toonMenu('eten')">Eten</button>
-    <button class="menuButton" onclick="toonMenu('dessert')">Dessert</button>
-    <button class="menuButton" onclick="toonMenu('drinken')">Drinken</button>
-    <button class="menuButton" onclick="toonMenu('wijnen')">Wijnen</button>
+<section id="menuSection">
+    <button class="menuButton" id="btnEten" onclick="toonMenu('eten')">Eten</button>
+    <button class="menuButton" id="btnDessert" onclick="toonMenu('dessert')">Dessert</button>
+    <button class="menuButton" id="btnDrinken" onclick="toonMenu('drinken')">Drinken</button>
+    <button class="menuButton" id="btnWijnen" onclick="toonMenu('wijnen')">Wijnen</button>
 </section>
 
 <section id="eten">
-    <h3>voorgerecht</h3>
+    <h3 class="menuHeader"> voorgerecht</h3>
     <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -37,7 +37,7 @@
 
     <br>
 
-    <h3>hoofdgerechten</h3>
+    <h3 class="menuHeader"> hoofdgerechten</h3>
     <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -52,7 +52,7 @@
 
     <br>
 
-    <h3>bijgerechten</h3>
+    <h3 class="menuHeader"> bijgerechten</h3>
     <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -63,10 +63,9 @@
             <p>Geroosterde Seizoensgroenten</p>
         </article>
     </article>
-
 </section>
-<section id="dessert" style="display:none">
-    <h3>dessert</h3>
+<section id="dessert">
+    <h3 class="menuHeader"> dessert </h3>
         <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -78,8 +77,10 @@
         </article>
     </article>
 </section>
+
+
 <section id="drinken" style="display:none">
-    <h3>warme dranken</h3>
+    <h3 class="menuHeader"> warme dranken</h3>
     <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -94,7 +95,7 @@
 
     <br>
 
-    <h3>koude dranken</h3>
+    <h3 class="menuHeader"> koude dranken</h3>
     <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -105,11 +106,10 @@
             <p>Kombucha van de dag</p>
             <p>Biologische frisdranken</p>
         </article>
-        
     </article>
 </section>
 <section id="wijnen" style="display:none">
-    <h3>witte wijn</h3>
+    <h3 class="menuHeader"> witte wijn</h3>
     <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -123,7 +123,7 @@
 
     <br>
 
-    <h3>roode wijn</h3>
+    <h3 class="menuHeader"> roode wijn</h3>
     <article class="menuRow">
         <picture class="menuImg">
             <img src="img/x.png" alt="x">
@@ -134,6 +134,7 @@
         </article>
     </article>
 </section>
+
 
 </main>
 

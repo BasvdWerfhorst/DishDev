@@ -4,4 +4,11 @@ function toonMenu(versie) {
     document.getElementById('drinken').style.display = 'none'
     document.getElementById('wijnen').style.display = 'none'
     document.getElementById(versie).style.display = 'block'
+
+    if (window.innerWidth < 768 && versie === 'eten') {
+        document.getElementById('dessert').style.display = 'block'
+    }
+    if (window.innerWidth < 768 && versie === 'drinken') {
+        document.getElementById('wijnen').style.display = 'block'
+    }
 }
