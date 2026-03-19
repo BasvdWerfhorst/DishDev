@@ -16,9 +16,15 @@
         <article class="footerbox-7">© all rights reserved by Vegan Food</article>
         <!-- Img Icons -->
             <article class="footer-icons">
+               <a href="https://www.instagram.com/wessel001/"> 
                 <img src="img\Social\Insta_ICon_NB-removebg-preview.png" alt="Instagram Icon">
+               </a> 
+               <a href="https://www.youtube.com/watch?v=28E_l690_0g"> 
                 <img src="img\Social\Facebook_Icon_NB-removebg-preview.png" alt="Facebook Icon">
+                </a>
+                <a href="https://www.youtube.com/@Link017">
                 <img src="img\Social\YT_icon_NB-removebg-preview.png" alt="Youtube Icon">
+                </a>
             </article>
     </section>
 </footer>
