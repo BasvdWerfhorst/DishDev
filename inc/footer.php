@@ -16,11 +16,8 @@
         <article class="footerbox-7">© all rights reserved by Vegan Food</article>
     </section>
 
-    <section>
-    
 
-
-    </section>
+    <img src="img\Social\Insta_ICon_NB-removebg-preview.png" alt="Instagram logo">
 
 </footer>
 

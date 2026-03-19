@@ -113,6 +113,10 @@ footer {
     margin-right: 17.5vh; 
 }
 
+.footer-container a:hover {
+    color: greenyellow;
+}
+
 .footerbox-1 {
    margin-left: 45%;
    bottom: 0;
