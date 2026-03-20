@@ -201,13 +201,6 @@ footer {
   height: 300px;
 }
 
-main {
-  display: flex;
-  /* place-items: center; */
-  flex-direction: column;
-  align-items: center;
-  height: 95vh;
-}
 #slideshowcontainer {
   margin: auto;
   width: 100%;
@@ -228,7 +221,41 @@ main {
   background-color: black;
 }
 
+/* reserveren */
+#resH1{
+    margin-left: 2vw;
+    margin-top: 5vh;
+}
+#form {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin-left: 2vw;
+    margin-top: 5vh;
+}
+.DateTijd {
+    display: flex;
+    flex-direction: row;
 
-
+}
+#name {
+width: 15vw;
+}
+#personen, #email, #telNummer{
+width: 20vw;
+}
+#opmerkingen {
+    min-width: 25vw;
+    min-height: 7vh;
+} 
+#submitForm {
+    margin-top: 2vh;
+    padding: 5px;
+    width: fit-content;
+    font-size: larger;
+    transition: 0.3 ease;
+    background-color: #0A9E0D;
+    color: white;
+}
 
 
