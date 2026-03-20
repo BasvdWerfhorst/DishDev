@@ -93,7 +93,7 @@ footer {
 
 /* Header Nav */
 
-.Header-BGC {
+Header {
     background-color: #0A9E0D;
     display: flex;
     width: 99vw;

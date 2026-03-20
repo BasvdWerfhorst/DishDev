@@ -9,7 +9,7 @@
 </head>
 <body>
     
-<header class="Header-BGC">
+<header>
 <?php require_once 'inc/header.php' ?>
 </header>
 
