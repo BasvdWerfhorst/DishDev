@@ -1,5 +1,5 @@
 * 
-/* background-color: var(--bgSecond); how to call a color */ 
+/* background-color: var(--hfbg); how to call a color */ 
 
 :root {
   --hfbg: #0A9E0D;
@@ -11,7 +11,7 @@
 
 
 
-{
+body {
     margin: 0;
     padding: 0;
 }
@@ -46,6 +46,31 @@ footer {
 
 
 @media (max-width: 767.9px) {
+.logo img {
+    height: 5vh;
+    padding: 5px;
+    display: flex;
+    position: relative;
+}
+
+.logo-Text {
+    color: white;
+    font-family: cursive;
+    font-size: smaller;
+    width: fit-content;
+    transition: 0.8 ease;
+    text-decoration: none;
+    margin-right: 41vw;
+
+}
+
+.logo-Text:hover {
+    color: greenyellow;
+}
+
+.navLinks {
+    display: none;
+}
 
 }
 
@@ -84,7 +109,7 @@ footer {
 /* Header Nav */
 
 .Header-BGC {
-    background-color: #0A9E0D;
+    background-color: var(--hfbg);
     display: flex;
     width: 99vw;
 }
