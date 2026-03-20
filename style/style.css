@@ -1,4 +1,17 @@
-* {
+* 
+/* background-color: var(--bgSecond); how to call a color */ 
+
+:root {
+  --hfbg: #0A9E0D;
+  --mainbg: #C8FFD1;
+  --gr-text: green;
+  --wh-text: whitesmoke ;
+  --colorchange: greenyellow;
+}
+
+
+
+{
     margin: 0;
     padding: 0;
 }
