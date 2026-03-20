@@ -210,7 +210,7 @@ main {
 
 /* menu */
 
-#dessert {
+#dessert, #wijnen, #drinken {
     display: none;
 }
 

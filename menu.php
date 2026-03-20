@@ -79,7 +79,7 @@
 </section>
 
 
-<section id="drinken" style="display:none">
+<section id="drinken">
     <h3 class="menuHeader"> warme dranken</h3>
     <article class="menuRow">
         <picture class="menuImg">
@@ -108,7 +108,7 @@
         </article>
     </article>
 </section>
-<section id="wijnen" style="display:none">
+<section id="wijnen">
     <h3 class="menuHeader"> witte wijn</h3>
     <article class="menuRow">
         <picture class="menuImg">
