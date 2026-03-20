@@ -222,54 +222,12 @@ footer {
 }
 
 /* reserveren */
-/* #resH1{
-    margin-left: 2vw;
-    margin-top: 5vh;
-}
+
+
+@media (max-width: 991px) {
+
 #form {
-    display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    margin-left: 2vw;
-    margin-top: 5vh;
-}
-.DateTijd {
-    display: flex;
-    flex-direction: row;
-
-}
-#name {
-width: 15vw;
-}
-#personen, #email, #telNummer{
-width: 20vw;
-}
-#opmerkingen {
-    min-width: 25vw;
-    min-height: 7vh;
-} 
-#submitForm {
-    margin-top: 2vh;
-    padding: 5px;
-    width: fit-content;
-    font-size: larger;
-    transition: 0.3 ease;
-    background-color: #0A9E0D;
-    color: white;
-} */
-
-
-@media (max-width: 767.9px) {
-#resH1{
-    margin-left: 6vw;
     margin-top: 3vh;
-}
-#form {
-    display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    margin-top: 5vh;
-    justify-content:space-between ;
 }
 #formBorder {
     display: flex;
@@ -316,14 +274,70 @@ display: flex;
 }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    
+@media (min-width: 992px) {
+#resH1{
+    margin-left: 6vw;
+    margin-top: 3vh;
+}
+#form {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin-top: 5vh;
+    margin-left: 1.5vw;
+    justify-content:space-between ;
+}
+#formBorder {
+    display: flex;
+}
+#formBox {
+    display: flex;
+    flex-direction: column;
+    width: 92vw;
+    margin-top: 2vh;  
+    margin-left: 4vw; 
+    background-color: yellowgreen;
+    border: 1px solid black;
+    border-radius: 3vh;
+    box-shadow: 0 4px 8px black;
+}
+.DateTijd {
+    display: flex;
+    flex-direction: row;
+}
+#dateInput {
+    margin-bottom: 1.5vh;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-
+#name, #personen, #email, #telNummer, #opmerkingen {
+display: flex;
+}
+#name, #personen, #email, #telNummer, #datum, #tijd, #opmerkingen {
+    margin-bottom: 1.5vh;
+}
+#name {
+width: 20vw;
+}
+#email, #telNummer{
+width: 30vw;
+}
+#personen {
+width: 10vw;
+}
+#opmerkingen {
+    min-width: 25vw;
+    max-width: 89vw;
+    min-height: 7vh;
+} 
+#submitForm {
+    margin-top: 2vh;
+    padding: 5px;
+    width: fit-content;
+    font-size: larger;
+    transition: 0.3 ease;
+    background-color: #0A9E0D;
+    color: white;
+    margin-bottom: 3vh;
+}
 }
 
-@media (min-width: 1200px) {
-
-}
