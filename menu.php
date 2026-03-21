@@ -21,7 +21,7 @@
     <button class="menuButton" id="btnDrinken" onclick="toonMenu('drinken')">Drinken</button>
     <button class="menuButton" id="btnWijnen" onclick="toonMenu('wijnen')">Wijnen</button>
 </section>
-
+<!-- text groote van de buttons veranderen voor elk device-width -->
 <section id="eten">
     <h3 class="menuHeader"> voorgerecht</h3>
     <article class="menuRow">
@@ -34,7 +34,11 @@
             <p>BruscheDa Tricolore</p> 
         </article>
     </article>
-
+    <!-- h3 plaats op kleinere device-width verplaatsen -->
+    <!-- fotos vernaderen naar eten -->
+    <!-- inhoud van de p veranderen op de product naam, product info en de prijs aan te geven-->
+    <!-- glutten vrij en vega tekens bij elke b enodigde product plaatsen -->
+    <!-- alles nog ietsjes mooier maken -->
     <br>
 
     <h3 class="menuHeader"> hoofdgerechten</h3>
