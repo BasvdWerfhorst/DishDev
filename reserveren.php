@@ -24,6 +24,7 @@
     <label for="telefoonnummer">Uw telefoonnummer:</label>
     <input type="tel" name="telefoonnummer" required id="telNummer">
     <label for="aantalPersonen">aantal personen:</label>
+    <!-- aantal personen van nummer box naar mooie radio knoppen maken -->
     <input type="number" name="aantalPersonen" required min="1" max="10" id="personen">
     <section class="DateTijd">
         <label for="date">Datum an</label>
@@ -41,6 +42,7 @@
     </textarea>
     <input type="submit" value="reserveren" id="submitForm">
     </form>
+    <!-- form mooier maken -->
 </section>
 </section>
 </main>
