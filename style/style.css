@@ -84,7 +84,7 @@ body {
     padding: 1px;
     font-family: cursive;
     font-size: larger;
-    transition: 0.3 ease;
+    transition: 0.8 ease;
     border-radius: 10px;
 }
 
@@ -95,7 +95,7 @@ body {
 .navLinks {
     margin-left: 20vw;
 }
-}
+
 
 /* Footer */
 
@@ -622,5 +622,6 @@ transition: transform 0.1s;
 #menuEten, #menuDrank #menuDessert, #menuWijn {
     display: flex;
     flex-direction: column;
+}
 }
 }
