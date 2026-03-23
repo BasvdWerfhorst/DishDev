@@ -1,5 +1,4 @@
-* 
-/* background-color: var(--hfbg); how to call a color */ 
+/* background-color: var(--hfbg); how to call a color */
 
 :root {
   --hfbg: #0A9E0D;
@@ -19,7 +18,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #C8FFD1;
+    background-color: var(--#C8FFD1);
 }
 
 
@@ -108,7 +107,7 @@ footer {
 
 /* Header Nav */
 
-.Header-BGC {
+.Header-BGC {                                                       
     background-color: var(--hfbg);
     display: flex;
     width: 99vw;
