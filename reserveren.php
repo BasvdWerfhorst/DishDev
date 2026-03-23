@@ -8,7 +8,7 @@
 </head>
 <body>
     
-<header>
+<header class="Header-BGC">
 <?php require_once 'inc/header.php' ?>
 </header>
 

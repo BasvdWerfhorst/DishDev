@@ -1,32 +1,27 @@
-let slides = document.getElementsByClassName('slide');
-let slideshowcontainer = document.getElementById('slideshow');
+let slides = document.querySelectorAll(".slide");
+let index = 0;
 
-let slideNum = 0;
-let lastSlide = 0;
-let timer = 3000;
-
-//Show/hide bruikbaar voor meerdere onderdelen binnen de slideshow acties
-function showHide() {
-
-    slides[lastSlide].style.display = "none";
-    slides[slideNum].style.display = 'block';
-
+function showSlide(i) {
+  slides.forEach(slide => slide.classList.remove("active"));
+  slides[i].classList.add("active");
 }
 
-//Basis tonen en verbergen van de afbeeldingen
-function slideshow() {
-    lastSlide = slideNum;
-    if (slideNum < slides.length - 1) {
-        slideNum++;
-    } else {
-        slideNum = 0;
-    }
-
-    showHide();
+function nextSlide() {
+  index++;
+  if (index >= slides.length) index = 0;
+  showSlide(index);
 }
 
-//setInterval opslaan in een variabel om later de setInterval te manipuleren.
-let slideinter = setInterval(slideshow, timer);
+function prevSlide() {
+  index--;
+  if (index < 0) index = slides.length - 1;
+  showSlide(index);
+}
 
-//Eerste keer normaal uitvoeren zodat een afbeelding al meteen zichhtbaar is.
-slideshow();
+// auto slideshow
+setInterval(() => {
+  nextSlide();
+}, 3000);
+
+// show first slide
+showSlide(index);
