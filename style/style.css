@@ -3,7 +3,9 @@ body {
     flex-direction: column;
     background-color: #C8FFD1;
 }
-
+/* html{
+    filter: grayscale(100%);
+} */
 /* header {
 
 }
@@ -26,19 +28,6 @@ footer {
 
 #dessert {
     display: none;
-}
-.Items {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 2vw;
-    padding: 0.5vh 0;
-    /* background-color: #E0E0E0; */
-    margin-bottom: 1vh;
-}
-.itemName {
-    white-space: nowrap;
 }
 
 @media (max-width: 767.9px) {
@@ -272,5 +261,34 @@ transition: transform 0.1s;
 #menuEten, #menuDrank #menuDessert, #menuWijn {
     display: flex;
     flex-direction: column;
+}
+.Items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+    padding: 0.5vh 0;
+    background-color:#3CF354;
+    margin-bottom: 1vh;
+    border: black solid 1px;
+    border-radius: 1vw;
+    /* box-shadow: 0px 0px 5px 0px black; */
+    box-shadow: 5px 10px 20px black inset;
+    padding: 0 1vw;
+    width: 100%;
+}
+.itemName {
+    width: 30%;
+    white-space: nowrap;
+}
+.itemDescription {
+    width: 60%;
+}
+.itemPrice {
+    width: 10%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 }
