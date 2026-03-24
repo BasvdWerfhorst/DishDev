@@ -8,7 +8,10 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* html{
+    filter: grayscale(100%);
+} */
+/* kan je zien hie het is voor mensen met een beperking */
 body {
     display: flex;
     flex-direction: column;
