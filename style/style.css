@@ -104,7 +104,7 @@ body {
     background-color: #0A9E0D;
     width: 99vw;
     height: 20vh;
-    margin-top: 100%;
+    margin-top: 2vh;
 }
 
 .footer-container {
@@ -181,8 +181,7 @@ body {
 .footer-icons {
     padding-top: 12vh;
     right: 0;
-    position: absolute;
-    
+    position: absolute;   
 }
 
 .footer-icons img {
@@ -190,7 +189,6 @@ body {
     height: auto;
     right: 0%;
     text-decoration: none;
-    
 }
 
 
@@ -231,6 +229,8 @@ body {
      position: relative;
 }
 
+/* first article */
+
 #aboutarticle {
     margin-left: 8vw;
     width: 80vw;
@@ -266,6 +266,54 @@ body {
     height: 25vh;
     position: absolute;
     border-radius: 20px;
+}
+
+/* second article */
+
+#recipesh1 {
+    width: fit-content;
+    background-color: #39BE05;
+    font-size: xx-large;
+    font-family: cursive;
+    color: whitesmoke;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 10vw;
+}
+
+#article-2 {
+     background-color: #a2f7b0;
+     padding: 10px;
+     width: 75vw;
+     justify-self: center;
+     border-radius: 1.5rem;
+}
+
+.recipes-img1 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 20vh;
+    border-radius: 10px;
+    margin: 1vh;
+}
+
+.recipes-img1 img {
+    border-radius: 10px;
+    margin: 1vh;
+    width: 18vw;
+}
+
+
+
+.vegan-recipes-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 32vw;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 1vh;
+    margin-left: 18vw;
 }
 
 

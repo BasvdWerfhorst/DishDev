@@ -20,6 +20,28 @@
 </header>
  
 <main>
+
+<article class="contact-article">
+
+</article>
+
+<article class="contact-article">
+
+</article>
+
+<article class="contact-article">
+
+</article>
+
+<article class="contact-article">
+
+</article>
+
+
+
+
+
+
 </main>
 
 <footer>
