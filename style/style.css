@@ -326,7 +326,6 @@ body {
     gap: 5em;                      /* space between items */
     justify-self: center;
     margin: 2vh;
-    
 }
 
 .contact-article {
@@ -334,6 +333,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     background-color: #a2f7b0;
+    box-shadow: 0px 0px 5px 0px black;
 }
 
 /* openingstijden */
@@ -396,13 +396,42 @@ body {
   max-width: 12vw;    
   height: auto;
   margin: 0.5rem;
+
+}
+
+.vacancy-subheader {
+    width: 10vw;
+    background-color: #39BE05;
+    font-size: larger;
+    font-family: cursive;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.vanacy-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 2px;
+    background-color: #a2f7b0;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+.Vacature-imges p {
+    width: 60vw;
+    align-self: center;
 }
 
 
+/* links contact */ 
 
+.subheader-links {
+    text-decoration: none;
 
-
-
+}
 
 
 
