@@ -10,7 +10,7 @@
 
     <title>Vegan Food Amsterdam</title>
 
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style\style.css">
 </head>
 <body>
     
@@ -19,6 +19,37 @@
 </header>
 
 <main>
+
+        <section id="Vacature-colomn">
+            <article class="Vacature-imges">
+                <img src="img\Vacatures\Waiter img vacatures.jpg" alt="Img waiter">
+                <p>Temp</p>
+            </article>
+
+            <article class="Vacature-imges">
+                <img src="img\Vacatures\waitress img vacatures.jpg" alt="Img waitress">
+                <p>Temp</p>
+            </article>
+
+            <article class="Vacature-imges">
+                <img src="img\Vacatures\Img cook vacature.jpg" alt="Img Cook">
+                <p>temp</p>
+            </article>
+
+            <article class="Vacature-imges">
+                <img src="img\Vacatures\cleaner img vacature.jpg" alt="Img Cleaner">
+                <p>temp</p>
+            </article>
+
+            <article class="Vacature-imges">
+                <img src="img\Vacatures\manager img vacatures.jpg" alt="Img manager">
+                <p>temp</p>
+            </article>
+
+        </section>
+
+
+
 
 </main>
 

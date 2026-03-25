@@ -384,6 +384,23 @@ body {
 }
 
 
+/* Vacatures page */
+
+.Vacature-imges {
+  display: flex;       
+  align-items: center; 
+  gap: 15px;           
+}
+
+.Vacature-imges img {
+  max-width: 12vw;    
+  height: auto;
+  margin: 0.5rem;
+}
+
+
+
+
 
 
 
