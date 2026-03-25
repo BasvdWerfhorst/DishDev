@@ -8,10 +8,7 @@ body {
     margin: 0;
     padding: 0;
 }
-/* html{
-    filter: grayscale(100%);
-} */
-/* kan je zien hie het is voor mensen met een beperking */
+
 body {
     display: flex;
     flex-direction: column;
@@ -183,14 +180,14 @@ body {
 
 .footer-icons {
     padding-top: 12vh;
-    right: 0;
+    right: 2vw;
     position: absolute;   
 }
 
 .footer-icons img {
     width: 3.1rem;
     height: auto;
-    right: 0%;
+    right: 2vw;
     text-decoration: none;
 }
 
@@ -319,6 +316,72 @@ body {
     margin-left: 18vw;
 }
 
+
+/* Contact */
+
+.container-contact {
+    display: grid;
+    grid-template-columns: 50vh 50vh; /* 2 columns */
+    grid-template-rows: 25vw 25vw;    /* 2 rows */
+    gap: 5em;                      /* space between items */
+    justify-self: center;
+    margin: 2vh;
+    
+}
+
+.contact-article {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #a2f7b0;
+}
+
+/* openingstijden */
+
+#contact-textheader {
+    width: fit-content;
+    background-color: #39BE05;
+    font-size: larger;
+    font-family: cursive;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.contact-headers {
+    width: fit-content;
+    background-color: #39BE05;
+    font-size: larger;
+    font-family: cursive;
+    color: whitesmoke;
+    padding: 2px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.openingstijden-text {
+    font-size: larger;
+    font-family: cursive;
+    color: black;
+}
+
+/* Contact-info */
+
+#contactinfo-text {
+    font-size: larger;
+    font-family: cursive;
+    color: black;
+}
+
+/* contact maps */
+
+#contact-maps {
+    width: 22.5vw;
+    height: 45vh;
+    border-radius: 10px;
+    margin-left: 1.5vh;
+}
 
 
 
