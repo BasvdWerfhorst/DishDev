@@ -20,22 +20,24 @@
 </header>
  
 <main>
+    <section class="container-contact">
+            <article class="contact-article">
+            Beste Mensen
+            </article>
 
-<article class="contact-article">
+            <article class="contact-article">
+            
+            </article>
 
-</article>
+            <article class="contact-article">
+            
+            </article>
 
-<article class="contact-article">
+            <article class="contact-article">
+            
+            </article>
+    </section>
 
-</article>
-
-<article class="contact-article">
-
-</article>
-
-<article class="contact-article">
-
-</article>
 
 
 
