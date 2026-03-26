@@ -2,12 +2,32 @@
 /* mainpage colorchange temp */
 /* #a2f7b0; */
 
-/* color: var(--bgcolor); */
+/* color: var(--blacktext-color); */
 
 
-:root[data-mode="light"] {
-    --bgcolor: green;
+:root[data-theme="light"] {
+    --mainbgcolor: #C8FFD1;
+    --hdftcolorbg: #39BE05;
+    --articlebg: #a2f7b0;
+    --subhdcolorbg: #39BE05;
+    --bordercolor: green solid; 
+    --whitetext-color: whitesmoke;
+    --blacktext-color: black;
+    --indexbtncolor: #39BE05;
 }
+
+:root[data-theme="dark"] {
+    --mainbgcolor: #1e1f2b;      
+    --hdftcolorbg: #36395d;      
+    --articlebg: #2b2d3a;        
+    --subhdcolorbg: #404477;  
+    --bordercolor: #60666d solid; 
+    --subhdcolor: #e1e1e6;       
+    --whitetext-color: whitesmoke;
+    --blacktext-color: white;
+    --indexbtncolor: #36395d;      
+}
+
 
 
 body {
@@ -18,7 +38,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #C8FFD1;
+    background-color: var(--mainbgcolor);
 }
 
 
@@ -50,6 +70,9 @@ body {
 
 @media (min-width: 1200px) {
 
+    body {
+         overflow-x: hidden;
+    }
 
  /* main Logo! */
 
@@ -76,15 +99,15 @@ body {
 /* Header Nav */
 
 .Header-BGC {
-    background-color: #0A9E0D;
+    background-color: var(--hdftcolorbg);
     display: flex;
-    width: 99vw;
+    width: 100%;
 }
 
 .navLinks a {
     font-size: 1.5rem;
     text-decoration: none;
-    border: solid green;
+    border: var(--bordercolor);
     width: fit-content;
     color: black;
     margin-inline-end: 8vh;
@@ -107,15 +130,15 @@ body {
 /* Footer */
 
 .footer-BGC {
-    background-color: #0A9E0D;
-    width: 99vw;
+    background-color: var(--hdftcolorbg);
+    width: 100%;
     height: 20vh;
     margin-top: 2vh;
 }
 
 .footer-container {
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px 50px 50px;
     margin-right: 17.5vh; 
 }
@@ -227,7 +250,7 @@ body {
 /* Index/home page under slideshow */
 
 .mainpage-colorchange {
-     background-color: #a2f7b0;
+     background-color: var(--articlebg);
      padding: 10px;
      width: 75vw;
      justify-self: center;
@@ -246,7 +269,7 @@ body {
 
 #about-us {
     width: fit-content;
-    background-color: #39BE05;
+    background-color: var(--subhdcolorbg);
     font-size: xx-large;
     font-family: cursive;
     color: whitesmoke;
@@ -257,7 +280,7 @@ body {
 }
 
 #About-text {
-    color: black;
+    color: var(--blacktext-color);
     border: solid 2px black;
     border-radius: 10px;
     font-size: larger;
@@ -279,7 +302,7 @@ body {
 
 #recipesh1 {
     width: fit-content;
-    background-color: #39BE05;
+    background-color: var(--subhdcolorbg);;
     font-size: xx-large;
     font-family: cursive;
     color: whitesmoke;
@@ -290,11 +313,12 @@ body {
 }
 
 #article-2 {
-     background-color: #a2f7b0;
+     background-color: var(--articlebg);
      padding: 10px;
      width: 75vw;
      justify-self: center;
      border-radius: 1.5rem;
+     color: var(--blacktext-color);
 }
 
 .recipes-img1 {
@@ -338,7 +362,11 @@ body {
   font-size: 16px;
   margin-left: 2vw;
   cursor: pointer;
-  background-color: #0A9E0D;
+  background-color: var(--indexbtncolor);
+}
+
+#mainpage-resbutton:hover {
+    color: greenyellow;
 }
 
 
@@ -357,7 +385,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
-    background-color: #a2f7b0;
+    background-color: var(--articlebg);
     box-shadow: 0px 0px 5px 0px black;
 }
 
@@ -365,7 +393,7 @@ body {
 
 #contact-textheader {
     width: fit-content;
-    background-color: #39BE05;
+    background-color: var(--hdftcolorbg);
     font-size: larger;
     font-family: cursive;
     color: whitesmoke;
@@ -376,7 +404,7 @@ body {
 
 .contact-headers {
     width: fit-content;
-    background-color: #39BE05;
+    background-color: var(--hdftcolorbg);
     font-size: larger;
     font-family: cursive;
     color: whitesmoke;
@@ -426,7 +454,7 @@ body {
 
 .vacancy-subheader {
     width: 10vw;
-    background-color: #39BE05;
+    background-color: var(--subhdcolorbg);
     font-size: larger;
     font-family: cursive;
     color: whitesmoke;
@@ -440,7 +468,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     padding: 2px;
-    background-color: #a2f7b0;
+    background-color: var(--articlebg);
     border: solid black 2px;
     border-radius: 5px;
 }
@@ -455,7 +483,6 @@ body {
 
 .subheader-links {
     text-decoration: none;
-
 }
 
 

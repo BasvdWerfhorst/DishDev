@@ -2,7 +2,9 @@ let slides = document.querySelectorAll(".slide");
 let index = 0;
 
 function showSlide(i) {
-  slides.forEach(slide => slide.classList.remove("active"));
+  for(let slide of slides){
+    slide.classList.remove("active")
+  }
   slides[i].classList.add("active");
 }
 
@@ -31,7 +33,11 @@ showSlide(index);
 let lightanddark = document.getElementById("lightdark");
 
 function changeMode() {
-  console.log(document)
+  if(document.documentElement.dataset.theme == 'light') {
+  document.documentElement.dataset.theme = 'dark';
+  } else {
+    document.documentElement.dataset.theme = 'light';
+  }
 }
 
 lightanddark.addEventListener('click', changeMode)
