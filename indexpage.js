@@ -23,7 +23,7 @@ function prevSlide() {
 
 setInterval(() => {
   nextSlide();
-}, 3000);
+}, 5000);
 
 
 showSlide(index);
