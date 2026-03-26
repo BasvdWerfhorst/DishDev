@@ -22,6 +22,8 @@
         <a href="vacatures.php">Vacatures</a>
     </nav>
     
+        <figure id="lightdark">&#127765</figure>
+
 </section> 
 
 <!--require_once 'inc/header.php'-->

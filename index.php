@@ -18,7 +18,6 @@
 <?php require_once 'inc/header.php' ?>
 </header>
 
-    <figure id="lightdark">&#127765</figure>
     <!-- voor hamburgermenu: &#9776 -->
 
     <main>

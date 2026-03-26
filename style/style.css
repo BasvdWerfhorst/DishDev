@@ -109,7 +109,7 @@ body {
     text-decoration: none;
     border: var(--bordercolor);
     width: fit-content;
-    color: black;
+    color: var(--blacktext-color);
     margin-inline-end: 8vh;
     padding: 1px;
     font-family: cursive;
@@ -484,8 +484,6 @@ body {
 .subheader-links {
     text-decoration: none;
 }
-
-
 
 
 
