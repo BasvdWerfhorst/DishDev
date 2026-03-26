@@ -58,13 +58,283 @@ body {
 
 @media (max-width: 767.9px) {
 
+    
+
+ body {
+         overflow-x: hidden;
+    }
+    
+    /* main logo */
+
+.logo img {
+    width: 88px;
+    height: 88px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    border-radius: 25px;
 }
+
+.logo-Text {
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    width: fit-content;
+    transition: 0.8 ease;
+}
+
+.logo-Text:hover {
+    color: greenyellow;
+}
+
+/* Header Nav */
+
+.Header-BGC {
+    background-color: var(--hdftcolorbg);
+    display: flex;
+    width: 100%;
+    
+}
+
+.navLinks a {
+    display: none;
+}
+
+
+/* footer */
+
+.footer-BGC {
+    background-color: var(--hdftcolorbg);
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2vh;
+    
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+    
+
+
+.footer-container a:hover {
+    color: greenyellow;
+}
+
+/* Shared styles */
+.footerbox-1,
+.footerbox-2,
+.footerbox-3,
+.footerbox-4,
+.footerbox-5,
+.footerbox-6,
+.footerbox-7,
+.footerbox-8 {
+    color: white;
+}
+
+/* Fonts */
+.footerbox-1,
+.footerbox-2,
+.footerbox-3 {
+    font-family: cursive;
+}
+
+.footerbox-4,
+.footerbox-5,
+.footerbox-6,
+.footerbox-7,
+.footerbox-8 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerbox-4 {
+    font-size: x-small;
+    max-width: 200px;
+    justify-self: center;
+}
+
+.footerbox-7 {
+    font-size: small;
+}
+
+.footerbox-5 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* icons */
+
+.footer-icons {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    margin: 5vw;
+}
+
+.footer-icons img {
+    width: 3.1rem;
+    height: auto;
+    right: 2vw;
+    text-decoration: none;
+} 
+
+    /* slideshow */
+
+.slideshow {
+    width: 80vw;
+    height: 20vh;
+    overflow: hidden;
+    justify-self: center;
+    margin: 1rem;
+
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px black;
+ 
+}
+
+.slide.active {
+    display: block;
+}
+
+/* Index/home page under slideshow */
+
+
+  .mainpage-colorchange {
+      width: 90vw;
+      padding: 10px;
+      border-radius: 1.5rem;
+      margin: 1rem auto; 
+      box-sizing: border-box;
+  }
+
+  /* First article */
+  #aboutarticle {
+      flex-direction: column; 
+      width: 90vw;
+      margin: 1rem auto;
+      position: relative;
+  }
+
+  #about-us {
+      font-size: x-large;
+      margin-left: 0;
+      width: fit-content;
+      padding: 5px 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0px 0px 5px 0px black;
+  }
+
+  #About-text {
+      width: 100%; 
+      font-size: medium;
+      margin-left: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 1rem;
+  }
+
+  #about-us-img {
+      position: relative;
+      margin: 1rem auto 0 auto; 
+      height: auto;
+      width: 90%; 
+      max-height: 25vh;
+      border-radius: 20px;
+  }
+
+  /* Second article */
+  #recipesh1 {
+      font-size: x-large;
+      margin-left: 0;
+      width: fit-content;
+      padding: 5px 10px;
+      margin-bottom: 1rem;
+  }
+
+  #article-2 {
+      width: 90vw;
+      margin: 1rem auto;
+      padding: 10px;
+      border-radius: 1.5rem;
+      box-sizing: border-box;
+  }
+
+  .recipes-img1 {
+      flex-direction: column; 
+      width: 100%;
+      height: auto;
+      margin: 0;
+      align-items: center;
+  }
+
+  .recipes-img1 img {
+      width: 90%;
+      height: auto;
+      margin: 0.5rem 0;
+  }
+
+  .vegan-recipes-text {
+      width: 100%;
+      margin: 1rem 0 0 0;
+      font-size: medium;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+  /* Button */
+  #mainpage-resbutton {
+      width: 90%;
+      font-size: 14px;
+      padding: 10px;
+      margin: 1rem auto;
+      display: block;
+      text-align: center;
+  }
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footerbox-4 {
+        width: 100%;
+    }
+}
+
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
     
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+#hamburger-menu {
+    display: none;
+}
+
+
 
 }
 
@@ -73,6 +343,10 @@ body {
     body {
          overflow-x: hidden;
     }
+
+#hamburger-menu {
+    display: none;
+}
 
  /* main Logo! */
 

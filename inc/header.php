@@ -23,6 +23,7 @@
     </nav>
     
         <figure id="lightdark">&#127765</figure>
+        <figure id="hamburger-menu">&#9776</figure>
 
 </section> 
 

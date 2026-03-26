@@ -20,7 +20,6 @@
 <?php require_once 'inc/header.php' ?>
 </header>
 
-    <!-- voor hamburgermenu: &#9776 -->
 
     <main>
         <div class="slideshow">
