@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="style/style.css">
     <script src="script/menu.js" defer></script>
+    <script src="Darkmode js\darkmode.js" defer></script>
 </head>
 
 <body>

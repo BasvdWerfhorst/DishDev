@@ -12,6 +12,7 @@
     <title>Vegan Food Amsterdam</title>
 
     <link rel="stylesheet" href="style/style.css">
+    <script src="Darkmode js\darkmode.js" defer></script>
 </head>
 <body>
     
