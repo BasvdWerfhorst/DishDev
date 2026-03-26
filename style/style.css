@@ -2,7 +2,7 @@
 /* mainpage colorchange temp */
 /* #a2f7b0; */
 
-/* color: var(--blacktext-color); */
+/* color: var(--articlebg); */
 
 
 :root[data-theme="light"] {
@@ -416,7 +416,7 @@ body {
 .openingstijden-text {
     font-size: larger;
     font-family: cursive;
-    color: black;
+    color: var(--blacktext-color);
 }
 
 /* Contact-info */
@@ -424,7 +424,7 @@ body {
 #contactinfo-text {
     font-size: large;
     font-family: cursive;
-    color: black;
+    color: var(--blacktext-color);
 }
 
 /* contact maps */
@@ -471,6 +471,7 @@ body {
     background-color: var(--articlebg);
     border: solid black 2px;
     border-radius: 5px;
+    color: var(--blacktext-color);
 }
 
 .Vacature-imges p {
@@ -563,7 +564,7 @@ display: flex;
     width: 92vw;
     margin-top: 2vh;  
     margin-left: 4vw; 
-    background-color: yellowgreen;
+    background-color: var(--articlebg);
     border: 1px solid black;
     border-radius: 3vh;
     box-shadow: 0 4px 8px black;
@@ -638,7 +639,7 @@ box-shadow: 0px 0px 5px 0px black;
 border: solid black 1px;
 justify-content: center;
 align-items: center;
-background-color: #3CF354;
+background-color: var(#a2f7b0);
 width: 20vw;
 height: 8vh;
 cursor: pointer;
@@ -695,7 +696,7 @@ transition: transform 0.1s;
     border: solid black 1px;
     justify-content: center;
     align-items: center;
-    background-color: #3CF354;
+    background-color: var(--subhdcolorbg);
     width: 13vw;
     height: 8vh;
     cursor: pointer;
