@@ -23,10 +23,12 @@
 </section>
 <!-- text groote van de buttons veranderen voor elk device-width -->
 <section id="eten">
-    <h3 class="menuHeader"> voorgerecht</h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> voorgerecht</h1>
+    </article>
     <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_pompoensoep_romig.png" alt="Kom warme vegan pompoensoep met pompoenpitten en kruiden">
         </picture>
         <section class="menuItems">
             <section class="Items">
@@ -47,17 +49,19 @@
         </section>
     </section>
 
-    <!-- h3 plaats op kleinere device-width verplaatsen -->
+    <!-- h1 plaats op kleinere device-width verplaatsen -->
     <!-- fotos vernaderen naar eten -->
     <!-- inhoud van de p veranderen op de product naam, product info en de prijs aan te geven-->
     <!-- glutten vrij en vega tekens bij elke b enodigde product plaatsen -->
     <!-- alles nog ietsjes mooier maken -->
     <br>
 
-    <h3 class="menuHeader"> hoofdgerechten</h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> hoofdgerechten</h1>
+    </article>
     <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_burger_deluxe_friet.png" alt="Vegan burger op briochebroodje met mayo, gegrilde groenten en zoete aardappelfriet">
         </picture>
         <section class="menuItems">
             <section class="Items">
@@ -85,10 +89,12 @@
 
     <br>
 
-    <h3 class="menuHeader"> bijgerechten</h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> bijgerechten</h1>
+    </article>
     <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_gemengde_salade_balsamico.png" alt="Vegan seizoenssalade met kleurrijke groenten en balsamicodressing">
         </picture>
         <section class="menuItems">
             <section class="Items">
@@ -110,10 +116,12 @@
     </section>
 </section>
 <section id="dessert">
-    <h3 class="menuHeader"> dessert </h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> dessert </h1>
+    </article>
         <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_lava_cake_kokosijs.png" alt="Warme vegan chocoladecake met vloeiende kern en kokosijs">
         </picture>
         <section class="menuItems">
             <section class="Items">
@@ -137,10 +145,12 @@
 
 
 <section id="drinken" style="display:none">
-    <h3 class="menuHeader"> warme dranken</h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> warme dranken</h1>
+    </article>
     <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_cappuccino_havermelk.png" alt="Vegan cappuccino met havermelk en latte art">
         </picture>
         <section class="menuItems">
             <section class="Items">
@@ -168,10 +178,12 @@
 
     <br>
 
-    <h3 class="menuHeader"> koude dranken</h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> koude dranken</h1>
+    </article>
     <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_biologische_frisdrank.png" alt="Gekoelde vegan biologische frisdrank in een glas">
         </picture>
         <section class="menuItems">
             <section class="Items">
@@ -198,10 +210,12 @@
     </section>
 </section>
 <section id="wijnen" style="display:none">
-    <h3 class="menuHeader"> witte wijn</h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> witte wijn</h1>
+    </article>
     <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_biologische_wijn_wit_chardonnay.png" alt="Glas vegan biologische wijn op tafel">
         </picture>
         <section class="menuItems">
             <section class="Items">
@@ -220,10 +234,12 @@
 
     <br>
 
-    <h3 class="menuHeader"> roode wijn</h3>
+    <article class="menuHeaderRow">
+        <h1 class="menuHeader"> roode wijn</h1>
+    </article>
     <section class="menuRow">
         <picture class="menuImg">
-            <img src="img/x.png" alt="x">
+            <img src="img/vegan_biologische_wijn_rood_marlot.png" alt="Glas vegan biologische wijn op tafel">
         </picture>
         <section class="menuItems">
             <section class="Items">
