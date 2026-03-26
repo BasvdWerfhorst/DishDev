@@ -9,7 +9,8 @@
     <meta name="author" content="Wessel & Bas">
 
     <title>Vegan Food Amsterdam</title>
-    
+
+    <link rel="icon" type="image/x-icon" href="">    
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>

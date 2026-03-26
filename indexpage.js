@@ -18,10 +18,20 @@ function prevSlide() {
   showSlide(index);
 }
 
-// auto slideshow
+
 setInterval(() => {
   nextSlide();
 }, 3000);
 
-// show first slide
+
 showSlide(index);
+
+/* lightdark mode */
+
+let lightanddark = document.getElementById("lightdark");
+
+function changeMode() {
+  console.log(document)
+}
+
+lightanddark.addEventListener('click', changeMode)

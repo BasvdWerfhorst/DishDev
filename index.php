@@ -18,6 +18,9 @@
 <?php require_once 'inc/header.php' ?>
 </header>
 
+    <figure id="lightdark">&#127765</figure>
+    <!-- voor hamburgermenu: &#9776 -->
+
     <main>
         <div class="slideshow">
   <img class="slide" src="img\Img slideshow.jpg" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
@@ -50,7 +53,9 @@
                         <img src="img\paddenstoelen-shoarma.jpg" alt="Foto paddenstoelen-shoarma">
                         <p class="vegan-recipes-text">Our mushroom shoarma sandwich features spiced sautéed mushrooms in warm pita, topped with crisp lettuce, tomato, cucumber, and creamy garlic sauce for a savory, satisfying plant-based street-food favorite.</p>
                 </article> 
-        <!-- Reserveer nu button aanmaken -->
+        <a href="reserveren.php">
+        <button id="mainpage-resbutton">Reserveer nu:</button>
+        </a>
     </article>
 
     </main>

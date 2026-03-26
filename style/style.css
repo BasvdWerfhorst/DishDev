@@ -2,6 +2,12 @@
 /* mainpage colorchange temp */
 /* #a2f7b0; */
 
+/* color: var(--bgcolor); */
+
+
+:root[data-mode="light"] {
+    --bgcolor: green;
+}
 
 
 body {
@@ -209,7 +215,7 @@ body {
     height: 100%;
     display: none;
     border-radius: 85px;
-    box-shadow: 0px 0px 12px 0px black;
+    box-shadow: 0px 0px 5px 0px black;
  
 }
 
@@ -247,7 +253,7 @@ body {
     padding: 2px;
     border-radius: 10px;
     margin-left: 10vw;
-    
+    box-shadow: 0px 0px 5px 0px black;
 }
 
 #About-text {
@@ -258,6 +264,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: 28vw;  
     padding: 5px;  
+    box-shadow: 0px 0px 5px 0px black;
 }
 
 #about-us-img {
@@ -279,6 +286,7 @@ body {
     padding: 2px;
     border-radius: 10px;
     margin-left: 10vw;
+    box-shadow: 0px 0px 5px 0px black;
 }
 
 #article-2 {
@@ -309,11 +317,28 @@ body {
 .vegan-recipes-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    width: 32vw;
+    width: 34vw;
     border: black solid 2px;
     border-radius: 10px;
     padding: 1vh;
     margin-left: 18vw;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+/* button */
+
+#mainpage-resbutton {
+  border: none;
+  color: whitesmoke;
+  font-family: cursive;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 2vw;
+  cursor: pointer;
+  background-color: #0A9E0D;
 }
 
 
@@ -369,7 +394,7 @@ body {
 /* Contact-info */
 
 #contactinfo-text {
-    font-size: larger;
+    font-size: large;
     font-family: cursive;
     color: black;
 }
