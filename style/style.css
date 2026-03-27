@@ -217,6 +217,7 @@ body {
       border-radius: 1.5rem;
       margin: 1rem auto; 
       box-sizing: border-box;
+      background-color: var(--articlebg);
   }
 
   /* First article */
@@ -234,15 +235,20 @@ body {
       padding: 5px 10px;
       margin-bottom: 1rem;
       box-shadow: 0px 0px 5px 0px black;
+      background-color: var(--subhdcolorbg);
   }
 
   #About-text {
-      width: 100%; 
+      width: 90%; 
       font-size: medium;
       margin-left: 0;
       padding: 10px;
       box-sizing: border-box;
       margin-bottom: 1rem;
+      color: var(--blacktext-color);
+      box-shadow: 0px 0px 5px 0px black;
+      border-radius: 5px;
+      justify-self: center;
   }
 
   #about-us-img {
@@ -252,6 +258,7 @@ body {
       width: 90%; 
       max-height: 25vh;
       border-radius: 20px;
+      
   }
 
   /* Second article */
@@ -269,6 +276,7 @@ body {
       padding: 10px;
       border-radius: 1.5rem;
       box-sizing: border-box;
+      background-color: var(--articlebg);
   }
 
   .recipes-img1 {
@@ -301,9 +309,45 @@ body {
       margin: 1rem auto;
       display: block;
       text-align: center;
+      background-color: var(--indexbtncolor);
+      text-decoration: none;
   }
 
+  #mainpage-resbutton:hover {
+    color: greenyellow;
+    text-decoration: none;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -426,6 +470,7 @@ body {
    bottom: 0;
    color: white;
    font-family: cursive;
+   text-decoration: none;
 }
 
 .footerbox-2 {
@@ -576,7 +621,7 @@ body {
 
 #recipesh1 {
     width: fit-content;
-    background-color: var(--subhdcolorbg);;
+    background-color: var(--subhdcolorbg);
     font-size: xx-large;
     font-family: cursive;
     color: whitesmoke;
@@ -621,6 +666,7 @@ body {
     padding: 1vh;
     margin-left: 18vw;
     box-shadow: 0px 0px 5px 0px black;
+    background-color: var(--articlebg);
 }
 
 /* button */

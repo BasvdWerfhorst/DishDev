@@ -1,7 +1,9 @@
 <footer class="footer-BGC">
     <section class="footer-container">
         <!-- . page title . -->
+         <a href="index.php" style="text-decoration: none;">
         <article class="footerbox-1">Vegen Food <br> Amsterdam</article>
+        </a>
         <!-- . Useful links text . -->
         <article class="footerbox-2">Useful Links</article>
         <!-- . Mady by text . -->
