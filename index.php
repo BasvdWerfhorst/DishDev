@@ -21,8 +21,6 @@
 <header class="Header-BGC">
 <?php require_once 'inc/header.php' ?>
 </header>
-
-
     <main>
         <div class="slideshow">
   <img class="slide" src="img\Vibrant plant-based dining in Amsterdam.png" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
