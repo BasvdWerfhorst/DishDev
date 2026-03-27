@@ -8,9 +8,6 @@
     <a href="index.php" style="text-decoration: none;">
          <p class="logo-Text">Vegan Food <br> Amsterdam</p>
     </a>
-
-   
-        
     
     <nav class="navLinks" id="navLinks"> 
         <a href="index.php">Home</a>
