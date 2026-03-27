@@ -53,8 +53,8 @@
                         <img src="img\paddenstoelen-shoarma.jpg" alt="Foto paddenstoelen-shoarma">
                         <p class="vegan-recipes-text">Our mushroom shoarma sandwich features spiced sautéed mushrooms in warm pita, topped with crisp lettuce, tomato, cucumber, and creamy garlic sauce for a savory, satisfying plant-based street-food favorite.</p>
                 </article> 
-        <a href="reserveren.php">
-        <button id="mainpage-resbutton">Reserveer nu:</button>
+        <a href="reserveren.php" style="text-decoration: none;">
+            <button id="mainpage-resbutton" title="Reserveer nu!">Reserveer nu:</button>
         </a>
     </article>
 

@@ -2,7 +2,7 @@
 /* mainpage colorchange temp */
 /* #a2f7b0; */
 
-/* color: var(--articlebg); */
+/* color: var(--blacktext-color); */
 
 
 :root[data-theme="light"] {
@@ -236,6 +236,7 @@ body {
       margin-bottom: 1rem;
       box-shadow: 0px 0px 5px 0px black;
       background-color: var(--subhdcolorbg);
+      color: whitesmoke;
   }
 
   #About-text {
@@ -264,10 +265,15 @@ body {
   /* Second article */
   #recipesh1 {
       font-size: x-large;
+      font-family: cursive;
       margin-left: 0;
       width: fit-content;
       padding: 5px 10px;
       margin-bottom: 1rem;
+      color: var(--whitetext-color);
+      background-color: var(--subhdcolorbg);
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px black;
   }
 
   #article-2 {
@@ -291,6 +297,7 @@ body {
       width: 90%;
       height: auto;
       margin: 0.5rem 0;
+      border-radius: 5px;
   }
 
   .vegan-recipes-text {
@@ -299,6 +306,7 @@ body {
       font-size: medium;
       padding: 10px;
       box-sizing: border-box;
+      color: var(--blacktext-color);
   }
 
   /* Button */
@@ -310,12 +318,11 @@ body {
       display: block;
       text-align: center;
       background-color: var(--indexbtncolor);
-      text-decoration: none;
+      color: var(--blacktext-color);
   }
 
   #mainpage-resbutton:hover {
     color: greenyellow;
-    text-decoration: none;
 }
 
 }
