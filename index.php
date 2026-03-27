@@ -25,9 +25,9 @@
 
     <main>
         <div class="slideshow">
-  <img class="slide" src="img\Img slideshow.jpg" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
-  <img class="slide" src="img\img3 slideshow.jpg" alt="slideshow Vega   n Food" title=" slideshow Vegan Food">
   <img class="slide" src="img\Vibrant plant-based dining in Amsterdam.png" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
+  <img class="slide" src="img\img3 slideshow.jpg" alt="slideshow Vega   n Food" title=" slideshow Vegan Food">
+  <img class="slide" src="img\Img slideshow.jpg" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
 </div>
     <article class="mainpage-colorchange">
         <h1 id="about-us">About us:</h1> <br>

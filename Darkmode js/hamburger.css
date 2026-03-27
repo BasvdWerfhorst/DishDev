@@ -3,25 +3,31 @@
   .navLinks {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 40%;
     text-align: center;
-    background-color: var(--bgSecond);
+    justify-self: center;
     z-index: 2;
     border-top: 1px solid var(--accent);
     top: 7vh ;
+    right: 0;
     position: absolute;
   }
 
   .navLinks a {
     text-decoration: none;
-    color: var(--textColor);
+    font-size: larger;
+    color: whitesmoke;
     border-bottom: 1px solid var(--accent);
-    width: 100%;
-    padding: 10px 0;
+    width: 80%;
+    font-family: cursive;
+    padding: 5%;
   }
 
 
 .navLinks a {
-    background-color: red;
+    background-color: #37af07;
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 }
