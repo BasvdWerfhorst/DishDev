@@ -9,12 +9,10 @@
          <p class="logo-Text">Vegan Food <br> Amsterdam</p>
     </a>
 
-    <!-- <button class="hamburgerMenu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </button> -->
-    <nav class="navLinks"> 
+   
+        
+    
+    <nav class="navLinks" id="navLinks"> 
         <a href="index.php">Home</a>
         <a href="menu.php">Menu</a>
         <a href="contact.php">Contact</a>
