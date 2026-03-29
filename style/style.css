@@ -227,6 +227,9 @@ footer {
     margin-left: 6vw;
     margin-top: 3vh;
 }
+.label{
+    font-size: 1.3rem;
+}
 @media (max-width: 991px) {
 
 #form {
@@ -268,6 +271,8 @@ footer {
     margin-bottom: 1.5vh;
 }
 #opmerkingen {
+    max-width: 88vw;
+    min-width: 88vw;
     min-height: 7vh;
     box-shadow: 0 2px 5px 3px black;
 
@@ -362,5 +367,6 @@ width: 10vw;
     color: white;
     margin-bottom: 3vh;
 }
+
 }
 
