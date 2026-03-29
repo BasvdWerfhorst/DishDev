@@ -243,7 +243,7 @@ footer {
     width: 95vw;
     margin-top: 2vh;
     align-items: center;    
-    background-color: yellowgreen;
+    background-color: #3CF354;
     border: 1px solid black;
     border-radius: 3vh;
     box-shadow: 0 4px 8px black;
@@ -255,17 +255,29 @@ footer {
 #dateInput {
     margin-bottom: 1.5vh;
 }
-
-#name, #personen, #email, #telNummer, #opmerkingen {
-width: 88vw;
-display: flex;
+#name, #personen, #email, #telNummer, #date, #time {
+    box-shadow: 0 0 4px 1px black;
 }
-#name, #personen, #email, #telNummer, #datum, #tijd, #opmerkingen {
+#name, #personen, #email, #telNummer{
+    height: 4vh;
+}
+#name, #personen, #email, #telNummer, #opmerkingen {
+    width: 88vw;
+    display: flex;
+}
+#name, #personen, #email, #telNummer, #date, #time, #opmerkingen {
     margin-bottom: 1.5vh;
 }
 #opmerkingen {
     min-height: 7vh;
+    box-shadow: 0 2px 5px 3px black;
+
 } 
+#date, #time {
+    width: 15vw;
+    height: 3vh;
+    margin-right: 1vw;
+}
 #submitForm {
     margin-top: 2vh;
     padding: 5px;
@@ -297,7 +309,7 @@ display: flex;
     width: 92vw;
     margin-top: 2vh;  
     margin-left: 4vw; 
-    background-color: yellowgreen;
+    background-color:#3CF354;
     border: 1px solid black;
     border-radius: 3vh;
     box-shadow: 0 4px 8px black;
@@ -309,11 +321,16 @@ display: flex;
 #dateInput {
     margin-bottom: 1.5vh;
 }
-
-#name, #personen, #email, #telNummer, #opmerkingen {
-display: flex;
+#name, #personen, #email, #telNummer, #date, #time {
+    box-shadow: 0 0 4px 1px black;
 }
-#name, #personen, #email, #telNummer, #datum, #tijd, #opmerkingen {
+#name, #personen, #email, #telNummer{
+    height: 2.5vh;
+}
+#name, #personen, #email, #telNummer, #opmerkingen {
+    display: flex;
+}
+#name, #personen, #email, #telNummer, #date, #time, #opmerkingen {
     margin-bottom: 1.5vh;
 }
 #name {
@@ -329,7 +346,13 @@ width: 10vw;
     min-width: 25vw;
     max-width: 89vw;
     min-height: 7vh;
+    box-shadow: 0 2px 5px 3px black;
 } 
+#date, #time {
+    width: 9vw;
+    height: 3vh;
+    margin-right: 1vw;
+}
 #submitForm {
     margin-top: 2vh;
     padding: 5px;
