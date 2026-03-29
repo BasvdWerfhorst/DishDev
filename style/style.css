@@ -227,7 +227,6 @@ footer {
     margin-left: 6vw;
     margin-top: 3vh;
 }
-
 @media (max-width: 991px) {
 
 #form {
@@ -274,7 +273,7 @@ footer {
 
 } 
 #date, #time {
-    width: 15vw;
+    width: 15vw, 100px;
     height: 3vh;
     margin-right: 1vw;
 }
@@ -349,7 +348,7 @@ width: 10vw;
     box-shadow: 0 2px 5px 3px black;
 } 
 #date, #time {
-    width: 9vw;
+    width: 9vw, 230px;
     height: 3vh;
     margin-right: 1vw;
 }
