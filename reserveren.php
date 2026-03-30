@@ -7,11 +7,13 @@
     <meta name="keywords" content="vegan, vegatarish, vega amsterdam, vegan food amsterdam, vegan restaurant amsterdam, plant based restaurant amsterdam, vegan dining amsterdam, vegan food in amsterdam, vegan cuisine amsterdam, vegan menu amsterdam, vegan cafe amsterdam, plant based food amsterdam, vegan lunch amsterdam, vegan dinner amsterdam, healthy vegan food amsterdam, vegan takeaway amsterdam, vegan restaurant netherlands">
     <meta name="author" content="Wessel & Bas">
     <title>Vegan Food Amsterdam</title>
-    <link rel="icon" type="image/x-icon" href="">    
+       
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="Darkmode js\hamburger.css">
     <script src="Darkmode js\darkmode.js" defer></script>
     <script src="Darkmode js\Hamburger Menu.js" defer></script>
+
+    <link rel="icon" type="image/x-icon" href="img\Icon2.png">
 </head>
 <body>
     
