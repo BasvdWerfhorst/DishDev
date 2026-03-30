@@ -31,7 +31,6 @@
     <input type="email" name="email" required id="email">
     <label class="label" for="telefoonnummer">Uw telefoonnummer:</label>
     <input type="tel" name="telefoonnummer" required id="telNummer">
-    <!-- aantal personen van nummer box naar mooie radio knoppen maken -->
     <label class="label" for="aantalPersonen">Aantal personen:</label>
     <section id="persoonAantal" required>
     <section id="flexForm">
