@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="nl" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,10 +30,10 @@
   <img class="slide" src="img\Img slideshow.jpg" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
 </div>
     <article class="mainpage-colorchange">
-        <h1 id="about-us">About us:</h1> <br>
+        <h1 id="about-us">Over Ons:</h1> <br>
             <article id="aboutarticle">
             
-                <p id="About-text">The restaurant began as a small pop-up in a borrowed kitchen, where plant-based meals were cooked for friends and curious passersby. A belief that vegan food should be comforting helped it grow a loyal following. Years later, it became a permanent spot—simple, seasonal, and built on the idea that good food can gently change habits. Check a few of our dishes below:</p>
+                <p id="About-text">Het restaurant begon als een kleine pop-up in een geleende keuken, waar plantaardige maaltijden werden bereid voor vrienden en nieuwsgierige voorbijgangers. De overtuiging dat veganistisch eten troostrijk moet zijn, zorgde voor een trouwe klantenkring. Jaren later werd het een vaste plek – eenvoudig, seizoensgebonden en gebouwd op het idee dat lekker eten gewoonten op een subtiele manier kan veranderen. Bekijk hieronder een paar van onze gerechten:</p>
                 <img src="img\Jamaican-Jerk-Bowl.jpg" id="about-us-img">
             </article>
         </article>
@@ -42,18 +42,18 @@
     <br><br><br><br><br><br>
 
      <article id="article-2">
-                <h1 id="recipesh1">Recipes</h1>
+                <h1 id="recipesh1">Gerechten:</h1>
                 <article class="recipes-img1">
                     <img src="img\Vegan-kapsalon_c.jpg" alt="Foto Vegan-kapsalon">
-                        <p class="vegan-recipes-text">Our vegan kapsalon, inspired by the famous Kapsalon from Rotterdam, layers crispy fries with seasoned plant-based kebab, melted vegan cheese, fresh salad, and garlic sauce for a rich, satisfying street-food classic.</p>
+                        <p class="vegan-recipes-text">Onze veganistische kapsalon, geïnspireerd op de beroemde Kapsalon uit Rotterdam, bestaat uit laagjes knapperige frietjes, gekruide plantaardige kebab, gesmolten veganistische kaas, verse salade en knoflooksaus. Het resultaat is een rijke, bevredigende klassieker uit de streetfoodcultuur.</p>
                 </article>
                 <article class="recipes-img1">  
                         <img src="img\vegan-rendang_jackfruit.jpg" alt="Foto vegan-rendang">
-                        <p class="vegan-recipes-text">Our vegan rendang features tender plant-based pieces simmered in a rich coconut curry with lemongrass, ginger, garlic, and spices, creating a deeply aromatic, comforting dish inspired by traditional Rendang.</p>
+                        <p class="vegan-recipes-text">Onze veganistische rendang bestaat uit malse, plantaardige stukjes die gestoofd worden in een rijke kokoscurry met citroengras, gember, knoflook en specerijen. Het resultaat is een zeer aromatisch en troostend gerecht, geïnspireerd op de traditionele rendang.</p>
                 </article> 
                 <article class="recipes-img1">  
                         <img src="img\paddenstoelen-shoarma.jpg" alt="Foto paddenstoelen-shoarma">
-                        <p class="vegan-recipes-text">Our mushroom shoarma sandwich features spiced sautéed mushrooms in warm pita, topped with crisp lettuce, tomato, cucumber, and creamy garlic sauce for a savory, satisfying plant-based street-food favorite.</p>
+                        <p class="vegan-recipes-text">Onze shoarma sandwich met champignons bestaat uit gekruide, gebakken champignons in een warm pitabroodje, belegd met knapperige sla, tomaat, komkommer en een romige knoflooksaus. Het resultaat is een hartige, bevredigende, plantaardige streetfood-favoriet.</p>
                 </article> 
         <a href="reserveren.php" style="text-decoration: none;">
             <button id="mainpage-resbutton" title="Reserveer nu!">Reserveer nu:</button>

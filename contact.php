@@ -9,7 +9,7 @@
     <meta name="author" content="Wessel & Bas">
 
 
-    <title>Vegan Food Amsterdam</title>
+    <title>Contact pagina Vegan Food Amsterdam</title>
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="Darkmode js\hamburger.css">
@@ -47,8 +47,8 @@
             <article class="contact-article">
                 <h4 class="contact-headers">Adress Gegevens</h4>
                 <p id="contactinfo-text">
-                   Vegan Food Amsterdam  Keizersgracht 212  1016DX 
-                   Amsterdam  email: info@veganfoodamsterdam.nl 
+                   Vegan Food Amsterdam  Keizersgracht 212  1016DX <br>
+                   Amsterdam  email: info@veganfoodamsterdam.nl  <br>
                    Telefoonnummer: 088-2321451
                 </p>
             </article>
@@ -56,11 +56,11 @@
             <article class="contact-article">
                 <h4 class="contact-headers">FAQ</h4>
                 <p id="contactinfo-text">
-                    What are your opening hours? See our opening hours above. <br>
-                    Do I need an appointment? Appointments are recommended. <br>
-                    How can I contact you? Via phone, email, or contact form. <br>
-                    Where are you located? Address is listed on the contact page. <br>
-                    Which payment methods are accepted? Cash and cards accepted.
+                    Wat zijn jullie openingstijden? Zie onze openingstijden hierboven. <br>
+                    Heb ik een afspraak nodig? Het is aan te raden een afspraak te maken. <br>
+                    Hoe kan ik contact met jullie opnemen? Telefonisch, per e-mail of via het contactformulier. <br>
+                    Waar zijn jullie gevestigd? Ons adres staat vermeld op de contactpagina. <br>
+                    Welke betaalmethoden accepteren jullie? Contant en met pinpas.
                 </p>
             </article>
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="nl" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <meta name="keywords" content="vegan, vegatarish, vega amsterdam, vegan food amsterdam, vegan restaurant amsterdam, plant based restaurant amsterdam, vegan dining amsterdam, vegan food in amsterdam, vegan cuisine amsterdam, vegan menu amsterdam, vegan cafe amsterdam, plant based food amsterdam, vegan lunch amsterdam, vegan dinner amsterdam, healthy vegan food amsterdam, vegan takeaway amsterdam, vegan restaurant netherlands">
     <meta name="author" content="Wessel & Bas">
 
-    <title>Vegan Food Amsterdam</title>
+    <title>Vacature pagina Vegan Food Amsterdam</title>
 
     <link rel="stylesheet" href="style\style.css">
     <link rel="stylesheet" href="Darkmode js\hamburger.css">
@@ -24,46 +24,46 @@
 </header>
 
 <main>
-            <h1 class="vacancy-subheader">Vacancies:</h1>
+            <h1 class="vacancy-subheader">Vacatures:</h1>
         <section id="Vacature-colomn">
             <article class="Vacature-imges">
                 <img src="img\Vacatures\Waiter img vacatures.jpg" alt="Img waiter">
                     <a href="" class="subheader-links">
-                    <h3 class="vacancy-subheader">Vacancy: Waiter </h3>
+                    <h3 class="vacancy-subheader">Vacature: Ober </h3>
                     </a>
-                <p class="vanacy-text">We are looking for a friendly and reliable Waiter/Waitress to join our team. In this role, you will greet guests, take orders, serve food and drinks, and ensure customers have a great dining experience. The ideal candidate has good communication skills, a positive attitude, and the ability to work in a fast-paced environment. Previous hospitality experience is a plus, but not required.</p>
+                <p class="vanacy-text">Wij zoeken een vriendelijke en betrouwbare ober om ons team te versterken. In deze functie ontvang je gasten, neem je bestellingen op, serveer je eten en drinken en zorg je ervoor dat onze gasten een prettige eetervaring hebben. De ideale kandidaat beschikt over goede communicatieve vaardigheden, een positieve instelling en kan goed werken in een dynamische omgeving. Ervaring in de horeca is een pré, maar niet vereist.</p>
             </article>
 
             <article class="Vacature-imges">
                 <img src="img\Vacatures\waitress img vacatures.jpg" alt="Img waitress">
                     <a href="" class="subheader-links">
-                    <h3 class="vacancy-subheader">Vacancy: Waitress</h3>
+                    <h3 class="vacancy-subheader">Vacature: Bediester</h3>
                     </a>
-                <p class="vanacy-text">We are looking for a friendly and enthusiastic Waitress to join our team. In this role, you will welcome guests, take food and drink orders, serve meals, and ensure customers have an enjoyable dining experience. The ideal candidate is polite, organized, and able to work well in a busy environment. Previous experience in hospitality is a plus, but a positive attitude and willingness to learn are most important.</p>
+                <p class="vanacy-text">Wij zoeken een vriendelijke en enthousiaste serveerster om ons team te versterken. In deze rol verwelkom je gasten, neem je bestellingen op, serveer je maaltijden en zorg je ervoor dat onze klanten een prettige eetervaring hebben. De ideale kandidaat is beleefd, georganiseerd en kan goed werken in een drukke omgeving. Ervaring in de horeca is een pluspunt, maar een positieve instelling en de bereidheid om te leren zijn het belangrijkst.</p>
             </article>
 
             <article class="Vacature-imges">
                 <img src="img\Vacatures\Img cook vacature.jpg" alt="Img Cook">
                     <a href="" class="subheader-links">
-                    <h3 class="vacancy-subheader">Vacancy: Cook</h3>
+                    <h3 class="vacancy-subheader">Vacature: Kok</h3>
                     </a>
-                <p class="vanacy-text">We are looking for a motivated and reliable Cook to join our kitchen team. In this role, you will be responsible for preparing and cooking dishes, maintaining kitchen cleanliness, and ensuring food quality and presentation. The ideal candidate works well under pressure, follows food safety standards, and has a passion for cooking. Previous kitchen experience is preferred.</p>
+                <p class="vanacy-text">Wij zoeken een gemotiveerde en betrouwbare kok om ons keukenteam te versterken. In deze functie ben je verantwoordelijk voor het bereiden en koken van gerechten, het schoonhouden van de keuken en het waarborgen van de kwaliteit en presentatie van het eten. De ideale kandidaat kan goed onder druk werken, volgt de voedselveiligheidsvoorschriften en heeft een passie voor koken. Ervaring in de keuken is niet nootzakelijk.</p>
             </article>
 
             <article class="Vacature-imges">
                 <img src="img\Vacatures\cleaner img vacature.jpg" alt="Img Cleaner">
                     <a href="" class="subheader-links">
-                    <h3 class="vacancy-subheader">Vacancy: Cleaner</h3>
+                    <h3 class="vacancy-subheader">Vacature: Schoonmaker</h3>
                     </a>
-                <p class="vanacy-text">We are looking for a reliable and hardworking Cleaner to join our restaurant team. In this role, you will be responsible for keeping the restaurant clean and organized, including dining areas, kitchen spaces, and restrooms. The ideal candidate is detail-oriented, efficient, and able to work independently to maintain a hygienic and welcoming environment for guests and staff.</p>
+                <p class="vanacy-text">Wij zoeken een betrouwbare en hardwerkende schoonmaker voor ons restaurantteam. In deze functie ben je verantwoordelijk voor het schoon en netjes houden van het restaurant, inclusief de eetruimtes, keuken en toiletten. De ideale kandidaat is detailgericht, efficiënt en in staat om zelfstandig te werken en een hygiënische en gastvrije omgeving te creëren voor gasten en personeel.</p>
             </article>
 
             <article class="Vacature-imges" class="subheader-links">
                 <img src="img\Vacatures\manager img vacatures.jpg" alt="Img manager">
                     <a href="" class="subheader-links">
-                    <h3 class="vacancy-subheader">Vacancy: Ict Manager</h3>
+                    <h3 class="vacancy-subheader">Vacature: Ict Manager</h3>
                     </a>
-                    <p class="vanacy-text">We are looking for an organized and experienced Back Office ICT Manager to oversee our internal IT systems and support daily business operations. In this role, you will manage back-office technology, maintain networks and software, ensure data security, and provide technical support to staff. The ideal candidate has strong problem-solving skills, experience with IT infrastructure, and the ability to keep systems running smoothly and efficiently.</p>
+                    <p class="vanacy-text">Wij zoeken een georganiseerde en ervaren Back Office ICT Manager die toezicht houdt op onze interne IT-systemen en de dagelijkse bedrijfsvoering ondersteunt. In deze rol beheert u de backoffice-technologie, onderhoudt u netwerken en software, waarborgt u de gegevensbeveiliging en biedt u technische ondersteuning aan medewerkers. De ideale kandidaat beschikt over sterke probleemoplossende vaardigheden, ervaring met IT-infrastructuur en het vermogen om systemen soepel en efficiënt te laten functioneren.</p>
             </article>
 
         </section>
