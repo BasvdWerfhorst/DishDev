@@ -22,18 +22,6 @@
 <?php require_once 'inc/header.php' ?>
 </header>
     <main>
-<section id="snelReserveren">
-    <section id="snelBox">
-        <picture id="snelLogo"><img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo"> </picture>
-        <section id="snelX"><button id="snelButtonClose" onclick="snelClose()">X</button></section>
-        <article class="snelText"><p>Wil je reserveren voor meer dan 10 personen? Neem dan telefonisch contact op via</p></article>
-        <article class="snelText"><h3>personen 1-10</h3></article>
-        <article class="snelText"><h3>vandaag nog plek!</h3></article>
-        <article class="snelText"><p>klik op knop om te reserveren</p></article>
-        <button id="snelButton" onclick="navReserveren()">Reserveer nu</button>
-    </section>
-</section>
-<button id="snelButtonOpen" onclick="snelOpen()">snel reserveren</button>
 <div class="slideshow">
   <img class="slide" src="img\Vibrant plant-based dining in Amsterdam.png" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
   <img class="slide" src="img\img3 slideshow.jpg" alt="slideshow Vega   n Food" title=" slideshow Vegan Food">
