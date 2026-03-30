@@ -1,13 +1,15 @@
-/* lightdark mode */
-
-let lightanddark = document.getElementById("lightdark");
-
 function changeMode() {
-  if(document.documentElement.dataset.theme == 'light') {
-  document.documentElement.dataset.theme = 'dark';
+  if (localStorage.getItem('darkMode') !== null) {
+      localStorage.removeItem('darkMode');
+      document.documentElement.dataset.theme = 'light';
   } else {
-    document.documentElement.dataset.theme = 'light';
+      localStorage.setItem('darkMode', 'on');
+      document.documentElement.dataset.theme = 'dark';
   }
 }
 
-lightanddark.addEventListener('click', changeMode)
+if (localStorage.getItem('darkMode') !== null) {
+    document.documentElement.dataset.theme = 'dark';
+} else {
+    document.documentElement.dataset.theme = 'light';
+}
