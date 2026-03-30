@@ -19,7 +19,7 @@
 
 <body>
     
-<header class="Header-BGC">
+<header>
 <?php require_once 'inc/header.php' ?>
 </header>
 
@@ -30,7 +30,6 @@
     <button class="menuButton" id="btnDrinken" onclick="toonMenu('drinken')">Drinken</button>
     <button class="menuButton" id="btnWijnen" onclick="toonMenu('wijnen')">Wijnen</button>
 </section>
-<!-- text groote van de buttons veranderen voor elk device-width -->
 <section id="eten">
     <article class="menuHeaderRow">
         <h1 class="menuHeader"> voorgerecht</h1>
