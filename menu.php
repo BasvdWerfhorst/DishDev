@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="Darkmode js\hamburger.css">
-    <script src="script/menu.js" defer></script>
+    <script src="lib/menu.js" defer></script>
     <script src="Darkmode js\darkmode.js" defer></script>
     <script src="Darkmode js\Hamburger Menu.js" defer></script>
 </head>
@@ -56,12 +56,7 @@
             </section>
         </section>
     </section>
-
-    <!-- h1 plaats op kleinere device-width verplaatsen -->
-    <!-- fotos vernaderen naar eten -->
-    <!-- inhoud van de p veranderen op de product naam, product info en de prijs aan te geven-->
     <!-- glutten vrij en vega tekens bij elke b enodigde product plaatsen -->
-    <!-- alles nog ietsjes mooier maken -->
     <br>
 
     <article class="menuHeaderRow">

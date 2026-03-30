@@ -10,7 +10,6 @@
     <link rel="icon" type="image/x-icon" href="">    
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="Darkmode js\hamburger.css">
-    <script src="script/personenKnop" defer></script>
     <script src="Darkmode js\darkmode.js" defer></script>
     <script src="Darkmode js\Hamburger Menu.js" defer></script>
 </head>
