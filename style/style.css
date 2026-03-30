@@ -812,7 +812,7 @@ footer {
 .subheader-links {
     text-decoration: none;
 }
-
+}
 
 
 
@@ -908,8 +908,7 @@ footer {
     width: 92vw;
     margin-top: 2vh;  
     margin-left: 4vw; 
-    background-color: var(--articlebg);
-    /* background-color:#3CF354; */
+    background-color:#3CF354;
     border: 1px solid black;
     border-radius: 3vh;
     box-shadow: 0 4px 8px black;
@@ -1214,6 +1213,5 @@ transition: transform 0.1s;
 #menuEten, #menuDrank #menuDessert, #menuWijn {
     display: flex;
     flex-direction: column;
-}
 }
 }
