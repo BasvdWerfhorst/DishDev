@@ -22,7 +22,7 @@
 </header>
 
 <main>
-
+            <h1 class="vacancy-subheader">Vacancies:</h1>
         <section id="Vacature-colomn">
             <article class="Vacature-imges">
                 <img src="img\Vacatures\Waiter img vacatures.jpg" alt="Img waiter">
