@@ -14,6 +14,8 @@
     --whitetext-color: whitesmoke;
     --blacktext-color: black;
     --indexbtncolor: #39BE05;
+    --elementGreen: #3CF354;
+    --elementGreen2: #0A9E0D;
 }
 
 :root[data-theme="dark"] {
@@ -25,7 +27,9 @@
     --subhdcolor: #e1e1e6;       
     --whitetext-color: whitesmoke;
     --blacktext-color: white;
-    --indexbtncolor: #36395d;      
+    --indexbtncolor: #36395d; 
+    --elementGreen: #7b7b7b; 
+    --elementGreen2: #4c5054;    
 }
 
 
@@ -480,6 +484,10 @@ footer {
 
 
 
+
+
+@media (max-width: 768px) {
+
     .footer-container {
         grid-template-columns: 1fr;
         text-align: center;
@@ -491,7 +499,7 @@ footer {
 
 }
 
-
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
     
@@ -541,7 +549,7 @@ footer {
 
 /* Header Nav */
 
-.Header-BGC {
+header {
     background-color: var(--hdftcolorbg);
     display: flex;
     width: 100%;
@@ -572,7 +580,7 @@ footer {
 
 /* Footer */
 
-.footer-BGC {
+footer {
     background-color: var(--hdftcolorbg);
     width: 100%;
     height: 20vh;
@@ -939,10 +947,33 @@ footer {
 #resH1{
     margin-left: 6vw;
     margin-top: 3vh;
+    color: var(--blacktext-color);
 }
 .label{
     font-size: 1.3rem;
+    color: var(--blacktext-color);
 }
+fieldset input[type="radio"] {
+  display: none;
+}
+fieldset label span {
+  display: flex;
+  border: 2px solid;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.radioPersonen {
+    width: 5vw;
+    height: 3vh;
+}
+#persoonAantal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
 @media (max-width: 991px) {
 
 #form {
@@ -958,7 +989,7 @@ footer {
     width: 95vw;
     margin-top: 2vh;
     align-items: center;   
-    background-color: #3CF354;
+    background-color:  var(--elementGreen);
     border: 1px solid black;
     border-radius: 3vh;
     box-shadow: 0 4px 8px black;
@@ -1001,7 +1032,7 @@ footer {
     width: fit-content;
     font-size: larger;
     transition: 0.3 ease;
-    background-color: #0A9E0D;
+    background-color: var(--elementGreen2);
     color: white;
     margin-bottom: 3vh;
 }
@@ -1026,7 +1057,7 @@ footer {
     width: 92vw;
     margin-top: 2vh;  
     margin-left: 4vw; 
-    background-color:#3CF354;
+    background-color: var(--elementGreen);
     border: 1px solid black;
     border-radius: 3vh;
     box-shadow: 0 4px 8px black;
@@ -1076,7 +1107,7 @@ width: 10vw;
     width: fit-content;
     font-size: larger;
     transition: 0.3 ease;
-    background-color: #0A9E0D;
+    background-color: var(--elementGreen2);
     color: white;
     margin-bottom: 3vh;
 }
@@ -1108,6 +1139,9 @@ width: 10vw;
 .menuButton:active {
     transform: scale(0.95);
 }
+.menuButton {
+    color: var(--blacktext-color);
+}
 #menuSection {
     margin-top: 5vh;
     display: flex;
@@ -1121,6 +1155,12 @@ width: 10vw;
 #menuEten, #menuDrank #menuDessert, #menuWijn {
     display: flex;
     flex-direction: column;
+}
+.Items{
+    color: var(--blacktext-color);
+}
+.menuHeaderRow{
+    color: var(--blacktext-color);
 }
 
 @media (max-width: 767.9px) {
@@ -1136,7 +1176,7 @@ box-shadow: 0px 0px 5px 0px black;
 border: solid black 1px;
 justify-content: center;
 align-items: center;
-background-color: #3CF354;
+background-color:  var(--elementGreen);
 width: 30vw;
 height: 8vh;
 cursor: pointer;
@@ -1151,7 +1191,7 @@ transition: transform 0.1s;
     justify-content: center;
     margin: 2vh;
     margin-top: 4vh;
-    background-color: #3CF354;
+    background-color:  var(--elementGreen);
     border: black solid 1px;
     border-radius: 2vw;
     box-shadow: 0px 3px 5px 2px black;
@@ -1173,7 +1213,7 @@ transition: transform 0.1s;
     justify-content: flex-start;
     gap: 2vw;
     padding: 0.5vh 0;
-    background-color:#3CF354;
+    background-color: var(--elementGreen);
     margin-bottom: 1vh;
     border: black solid 1px;
     border-radius: 2vw;
@@ -1211,7 +1251,7 @@ transition: transform 0.1s;
     border: solid black 1px;
     justify-content: center;
     align-items: center;
-    background-color: #3CF354;
+    background-color: var(--elementGreen);
     width: 13vw;
     height: 8vh;
     cursor: pointer;
@@ -1237,7 +1277,7 @@ transition: transform 0.1s;
     justify-content: flex-start;
     gap: 2vw;
     padding: 0.5vh 0;
-    background-color:#3CF354;
+    background-color: var(--elementGreen);
     margin-bottom: 1vh;
     border: black solid 1px;
     border-radius: 1vw;
@@ -1269,7 +1309,7 @@ transition: transform 0.1s;
     justify-content: center;
     margin: 3vh;
     margin-top: 5vh;
-    background-color: #3CF354;
+    background-color:  var(--elementGreen);
     border: black solid 1px;
     border-radius: 1vw;
     box-shadow: 0px 3px 5px 2px black;
@@ -1282,7 +1322,7 @@ transition: transform 0.1s;
     box-shadow: 0px 0px 7px 1px black;
     justify-content: center;
     align-items: center;
-    background-color: #3CF354;
+    background-color:  var(--elementGreen);
     width: 17vw;
     height: 10vh;
     cursor: pointer;
@@ -1305,7 +1345,7 @@ transition: transform 0.1s;
     justify-content: flex-start;
     gap: 2vw;
     padding: 0.5vh 0;
-    background-color:#3CF354;
+    background-color: var(--elementGreen);
     margin-bottom: 1vh;
     border: black solid 1px;
     border-radius: 1vw;
@@ -1333,7 +1373,7 @@ transition: transform 0.1s;
     justify-content: center;
     margin: 3vh;
     margin-top: 5vh;
-    background-color: #3CF354;
+    background-color:  var(--elementGreen);
     border: black solid 1px;
     border-radius: 1vw;
     box-shadow: 0px 3px 5px 2px black;
