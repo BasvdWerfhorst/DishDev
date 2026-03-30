@@ -25,67 +25,69 @@
 <section id="formBorder">
 <section id="formBox">
     <form action="" method="get" id="form">
-    <label name="aantalPersonen" class="personenLabel" class="label" for="name">Uw naam:</label>
+    <label class="label" for="name">Uw naam:</label>
     <input type="text" name="name" required id="name">
-    <label name="aantalPersonen" class="personenLabel" class="label" for="email">Uw e-mail:</label>
+    <label class="label" for="email">Uw e-mail:</label>
     <input type="email" name="email" required id="email">
-    <label name="aantalPersonen" class="personenLabel" class="label" for="telefoonnummer">Uw telefoonnummer:</label>
+    <label class="label" for="telefoonnummer">Uw telefoonnummer:</label>
     <input type="tel" name="telefoonnummer" required id="telNummer">
     <!-- aantal personen van nummer box naar mooie radio knoppen maken -->
-    <fieldset id="persoonAantal" required>
-        <legend>Voor hoeveel personen wilt u reserveren?</legend>
+    <label class="label" for="aantalPersonen">Aantal personen:</label>
+    <section id="persoonAantal" required>
+    <section id="flexForm">
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="1">
-            <span>1</span>
+            <span class="span">1</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="2">
-            <span>2</span>
+            <span class="span">2</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="3">
-            <span>3</span>
+            <span class="span">3</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="4">
-            <span>4</span>
+            <span class="span">4</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="5">
-            <span>5</span>
+            <span class="span">5</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="6">
-            <span>6</span>
+            <span class="span">6</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="7">
-            <span>7</span>
+            <span class="span">7</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="8">
-            <span>8</span>
+            <span class="span">8</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="9">
-            <span>9</span>
+            <span class="span">9</span>
         </label>
         <label name="aantalPersonen" class="personenLabel">
             <input type="radio" name="aantalPersonen" class="radioPersonen" value="10">
-            <span>10</span>
+            <span class="span">10</span>
         </label>
-    </fieldset>
-    <!-- <label name="aantalPersonen" class="personenLabel" class="label" for="aantalPersonen">aantal personen:</label>
+    </section>
+    </section>
+    <!-- <label class="label" for="aantalPersonen">aantal personen:</label>
     <input type="number" name="aantalPersonen" required min="1" max="10" id="personen"> -->
     <section class="DateTijd">
-        <label name="aantalPersonen" class="personenLabel" class="label" for="date">Datum an</label>
-        <label name="aantalPersonen" class="personenLabel" class="label" for="tijd">d tijd:</label>
+        <label class="label" for="date">Datum an</label>
+        <label class="label" for="tijd">d tijd:</label>
     </section>
     <section class="DateTijd" id="dateInput">
         <input type="date" name="date" required id="date">
         <input type="time" name="tijd" required id="time">
     </section>  
-    <label name="aantalPersonen" class="personenLabel" class="label" for="opmerkingen">extra informatie/opmerkingen:</label>
+    <label class="label" for="opmerkingen">extra informatie/opmerkingen:</label>
     <textarea 
         id="opmerkingen" 
         name="opmerkingen" 
