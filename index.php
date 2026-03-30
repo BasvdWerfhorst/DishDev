@@ -14,7 +14,6 @@
     <script src="indexpage.js" defer></script>
     <script src="Darkmode js\darkmode.js" defer></script>
     <script src="Darkmode js\Hamburger Menu.js" defer></script>
-
     <link rel="icon" type="image/x-icon" href="img\Icon2.png">
 
 </head>
@@ -24,7 +23,7 @@
 <?php require_once 'inc/header.php' ?>
 </header>
     <main>
-        <div class="slideshow">
+<div class="slideshow">
   <img class="slide" src="img\Vibrant plant-based dining in Amsterdam.png" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
   <img class="slide" src="img\img3 slideshow.jpg" alt="slideshow Vega   n Food" title=" slideshow Vegan Food">
   <img class="slide" src="img\Img slideshow.jpg" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
