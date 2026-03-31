@@ -16,10 +16,14 @@
         <a href="reserveren.php">Reserveren</a>
         <a href="vacatures.php">Vacatures</a>
     </nav>
-    
+    <section id="navRechts">
         <figure id="lightdark" onclick="changeMode()" >&#127765</figure>
-        <figure id="hamburger-menu">&#9776</figure>
-
+        <button id="hamburger-menu" aria-label="Menu openen">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </section>
 </section> 
 
-<!--require_once 'inc/header.php'-->
+<!--require_once 'inc/header.php'&#9776-->

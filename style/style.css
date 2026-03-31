@@ -60,6 +60,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+#lichtdark {
+    cursor: pointer;
+}
 @media (min-width: 992px) {
 
 .navLinks a {
@@ -114,21 +117,23 @@ margin: 0;
 .navLinks {
     display: none;
 }
-.logo img {
-    width: 88px;
-    height: 88px;
-    padding: 5px;
+#navRechts {
     display: flex;
-    position: relative;
-    border-radius: 25px;
+    position: absolute;
+    right: 0;
+}
+.logo img {
+    width: auto;
+    height: 8vh;
+    padding: 0.5vw;
+    display: flex;
+    border-radius: 2vw;
 }
 
 .logo-Text {
     color: white;
     font-family: cursive;
-    font-size: large;
-    width: fit-content;
-    transition: 0.8 ease;
+    font-size: 1rem;
 }
 
 .logo-Text:hover {
