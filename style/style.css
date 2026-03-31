@@ -50,13 +50,28 @@ body {
 
 
 /* Footer */
-@media (min-width: 576.1px){
 footer {
     background-color: var(--hdftcolorbg);
     width: 100%;
     margin-top: 3vh;
     color: var(--whitetext-color);
 }
+#footer-container a:hover {
+    color: greenyellow;
+}
+#footerILink {
+    text-decoration: none;
+}
+.gridBoxes{
+    padding: 1vw;
+}
+#footer-icons { 
+    grid-area: grid8;
+}
+
+
+@media (min-width: 576.1px){
+
 
 #footer-container {
     display: grid;
@@ -70,19 +85,16 @@ footer {
     "grid7 grid5 grid8";
     align-items: center;
     justify-items: center;
-    padding-bottom: 2vh;
+    padding-bottom: 4vh;
     padding-top: 2vh;
     text-align: center;
-}
-
-#footer-container a:hover {
-    color: greenyellow;
 }
 
 #footerGrid1 {
    text-decoration: none;
    grid-area: grid1;
    font-size: clamp(1rem, 4vw, 1.5rem);
+   color: var(--whitetext-color);
 }
 
 #footerGrid2 {
@@ -112,6 +124,7 @@ footer {
 
 #footerGrid5 a {
     text-decoration: none;
+    color: var(--whitetext-color);
 }
 
 #footerGrid6 {
@@ -126,17 +139,6 @@ footer {
     grid-area: grid7;
 }
 
-#footerILink {
-    text-decoration: none;
-}
-
-.gridBoxes{
-    padding: 1vw;
-}
-
-#footer-icons { 
-    grid-area: grid8;
-}
 
 #footer-icons img {
     width: clamp(0.1rem, 6vw, 3rem);
@@ -146,23 +148,23 @@ footer {
 }
 }
 @media (max-width: 576px){
-   footer {
-    background-color: var(--hdftcolorbg);
-    width: 100%;
-    margin-top: 3vh;
-    color: var(--whitetext-color);
-}
+   
 
 #footer-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: 6vh 7vh 6vh;
     column-gap: 1vw;
     row-gap: 1vw;
     grid-template-areas: 
-    "grid1 grid2 grid3"
-    "grid4 grid5 grid6"
-    "grid7 grid5 grid8";
+    "grid1"
+    "grid2"
+    "grid3"
+    "grid6"
+    "grid4"
+    "grid5"
+    "grid7"
+    "grid8";
     align-items: center;
     justify-items: center;
     padding-bottom: 2vh;
@@ -170,31 +172,28 @@ footer {
     text-align: center;
 }
 
-#footer-container a:hover {
-    color: greenyellow;
-}
-
 #footerGrid1 {
    text-decoration: none;
    grid-area: grid1;
-   font-size: clamp(1rem, 4vw, 1.5rem);
+   font-size: clamp(1.2rem, 4vw, 1.2rem);
+    color: var(--whitetext-color);
 }
 
 #footerGrid2 {
     font-family: cursive;
     grid-area: grid2;
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: clamp(1.2rem, 4vw, 1.2rem);
 }
 
 #footerGrid3 {
     font-family: cursive;
     grid-area: grid3;
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: clamp(1.2rem, 4vw, 1.2rem);
 }
 
 #footerGrid4 {
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: clamp(0.35rem, 1vw, 0.6875rem);
+    font-size: 0.5rem;
     grid-area: grid4;
 }
 
@@ -202,39 +201,30 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     grid-area: grid5;
     text-decoration: none;
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: 1.2rem;
 }
 
 #footerGrid5 a {
     text-decoration: none;
+    color: var(--whitetext-color);
 }
 
 #footerGrid6 {
     font-family: Arial, Helvetica, sans-serif;  
     grid-area: grid6; 
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: clamp(1.2rem, 4vw, 1.2rem);
 }
 
 #footerGrid7 { 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(0.625rem, 1.875vw, 0.875rem);
+    font-size: clamp(1.2rem, 4vw, 1.2rem);
     grid-area: grid7;
 }
 
-#footerILink {
-    text-decoration: none;
-}
 
-.gridBoxes{
-    padding: 1vw;
-}
-
-#footer-icons { 
-    grid-area: grid8;
-}
 
 #footer-icons img {
-    width: clamp(0.1rem, 6vw, 3rem);
+    width: 10vw;
     height: auto;
     right: 2vw;
     text-decoration: none;
