@@ -26,7 +26,7 @@
     <section id="snelBox">
         <picture id="snelLogo"><img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo"> </picture>
         <section id="snelX"><button id="snelButtonClose" onclick="snelClose()">X</button></section>
-        <article class="snelText"><p>Wil je reserveren voor meer dan 10 personen? Neem dan telefonisch contact op via</p></article>
+        <article class="snelText"><p>Wil je reserveren voor meer dan 10 personen? Neem dan telefonisch contact op</p></article>
         <article class="snelText"><h3>personen 1-10</h3></article>
         <article class="snelText"><h3>vandaag nog plek!</h3></article>
         <article class="snelText"><p>klik op knop om te reserveren</p></article>
