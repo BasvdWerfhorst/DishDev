@@ -49,6 +49,101 @@ body {
 } */
 
 
+/* Header Nav */
+header {
+    background-color: var(--hdftcolorbg);
+    display: flex;
+    width: 100%;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width: 992px) {
+
+.navLinks a {
+    font-size: max(1.5vw, 1rem);
+    text-decoration: none;
+    border: var(--bordercolor);
+    color: var(--blacktext-color);
+    margin: 1vw;
+    padding: 1px;
+    font-family: cursive;
+    border-radius: 1vw;
+} 
+
+ .navLinks a:hover {
+    color: greenyellow;
+}
+
+.navLinks {
+    margin: 4vw;
+}
+ /* main Logo! */
+
+.logo img {
+    width:  15vw;
+    padding: 5px;
+    display: flex;
+    border-radius: 2vw;
+}
+
+.logo-Text {
+    color: white;
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+.logo-Text:hover {
+    color: greenyellow;
+}
+#hamburger-menu {
+    display: none;
+}
+
+
+#lightdark {
+margin: 0;
+}
+}
+@media (max-width: 991px) {
+#hamburger-menu {
+    display: block;
+}
+.navLinks {
+    display: none;
+}
+.logo img {
+    width: 88px;
+    height: 88px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    border-radius: 25px;
+}
+
+.logo-Text {
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    width: fit-content;
+    transition: 0.8 ease;
+}
+
+.logo-Text:hover {
+    color: greenyellow;
+}
+
+/* Header Nav */
+
+header {
+    background-color: var(--hdftcolorbg);
+    display: flex;
+    width: 100%; 
+}
+}
+
 /* Footer */
 footer {
     background-color: var(--hdftcolorbg);
@@ -310,8 +405,6 @@ footer {
     grid-area: grid7;
 }
 
-
-
 #footer-icons img {
     width: 10vw;
     height: auto;
@@ -324,15 +417,6 @@ footer {
 
 /* end navbar css */
 
-.navBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
-
 @media (max-width: 576px) {
 
     
@@ -341,42 +425,6 @@ footer {
          overflow-x: hidden;
     }
     
-    /* main logo */
-
-.logo img {
-    width: 88px;
-    height: 88px;
-    padding: 5px;
-    display: flex;
-    position: relative;
-    border-radius: 25px;
-}
-
-.logo-Text {
-    color: white;
-    font-family: cursive;
-    font-size: large;
-    width: fit-content;
-    transition: 0.8 ease;
-}
-
-.logo-Text:hover {
-    color: greenyellow;
-}
-
-/* Header Nav */
-
-header {
-    background-color: var(--hdftcolorbg);
-    display: flex;
-    width: 100%;
-    
-}
-
-/* .navLinks a {
-    display: none;
-} */
-
 
 
 
@@ -671,9 +719,7 @@ header {
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-#hamburger-menu {
-    display: none;
-}
+
 
 
 
@@ -688,61 +734,7 @@ header {
          overflow-x: hidden;
     }
 
-#hamburger-menu {
-    display: none;
-}
 
- /* main Logo! */
-
-.logo img {
-    height: 15vh;
-    padding: 5px;
-    display: flex;
-    position: relative;
-    border-radius: 25px;
-}
-
-.logo-Text {
-    color: white;
-    font-family: cursive;
-    font-size: x-large;
-    width: fit-content;
-    transition: 0.8 ease;
-}
-
-.logo-Text:hover {
-    color: greenyellow;
-}
-
-/* Header Nav */
-
-header {
-    background-color: var(--hdftcolorbg);
-    display: flex;
-    width: 100%;
-}
-
-.navLinks a {
-    font-size: 1.5rem;
-    text-decoration: none;
-    border: var(--bordercolor);
-    width: fit-content;
-    color: var(--blacktext-color);
-    margin-inline-end: 8vh;
-    padding: 1px;
-    font-family: cursive;
-    font-size: larger;
-    transition: 0.8 ease;
-    border-radius: 10px;
-} 
-
- .navLinks a:hover {
-    color: greenyellow;
-}
-
-.navLinks {
-    margin-left: 20vw;
-}
 
 
 /* Index/home page */
