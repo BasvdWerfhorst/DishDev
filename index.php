@@ -10,16 +10,17 @@
     <title>Vegan Food Amsterdam</title>
 
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="Darkmode js\hamburger.css">
-    <script src="indexpage.js" defer></script>
-    <script src="Darkmode js\darkmode.js" defer></script>
-    <script src="Darkmode js\Hamburger Menu.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="img\Icon2.png">
+    <link rel="stylesheet" href="Darkmode js/hamburger.css">
+    <script src="lib/indexpage.js" defer></script>
+    <script src="Darkmode js/darkmode.js" defer></script>
+    <script src="Darkmode js/Hamburger Menu.js" defer></script>
+    <script src="lib/instelingen.js" defer></script>
+
 
 </head>
 <body>
     
-<header class="Header-BGC">
+<header>
 <?php require_once 'inc/header.php' ?>
 </header>
     <main>
