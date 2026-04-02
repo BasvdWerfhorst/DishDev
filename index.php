@@ -14,7 +14,7 @@
     <script src="lib/indexpage.js" defer></script>
     <script src="Darkmode js/darkmode.js" defer></script>
     <script src="Darkmode js/Hamburger Menu.js" defer></script>
-    <script src="instelingen.js" defer></script>
+    <script src="lib/instelingen.js" defer></script>
 
 
 </head>
