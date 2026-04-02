@@ -9,8 +9,6 @@ function showOrHideNav(e) {
     }
 }
 
-
-
 ham.addEventListener('click', showOrHideNav);
 
 document.getElementById('hamburger-menu').addEventListener('click', function () {

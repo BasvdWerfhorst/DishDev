@@ -63,6 +63,52 @@ header {
 #lichtdark {
     cursor: pointer;
 }
+
+#instelMogelijkheden {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: greenyellow;
+  border-radius: 1vw;
+  padding: 2vw;
+  padding-left : 3vw;
+  padding-right: 3vw;
+}
+
+#instelMogelijkheden.open {
+  display: flex;
+}
+#instelingen {
+  color: var(--bordercolor);
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+#instelingen svg {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+#instelingen:hover svg {
+  transform: rotate(45deg);
+}
+#lightdark {
+    margin: 0;
+}
+#navRechts {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+@media (min-width: 992px) {
+    #navRechts {
+        margin-right: 2vw;
+    }
+}
 @media (min-width: 992px) {
 
 .navLinks a {
@@ -106,9 +152,7 @@ header {
 }
 
 
-#lightdark {
-margin: 0;
-}
+
 }
 @media (max-width: 991px) {
 #hamburger-menu {
@@ -117,11 +161,7 @@ margin: 0;
 .navLinks {
     display: none;
 }
-#navRechts {
-    display: flex;
-    position: absolute;
-    right: 0;
-}
+
 .logo img {
     width: auto;
     height: 8vh;
