@@ -23,6 +23,7 @@
 </header>
     <main>
 <section id="snelReserveren">
+    <section id="snelExtra">
     <section id="snelBox">
         <picture id="snelLogo"><img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo"> </picture>
         <section id="snelX"><button id="snelButtonClose" onclick="snelClose()">X</button></section>
@@ -31,6 +32,7 @@
         <article class="snelText"><h3>vandaag nog plek!</h3></article>
         <article class="snelText"><p>klik op knop om te reserveren</p></article>
         <button id="snelButton" onclick="navReserveren()">Reserveer nu</button>
+    </section>
     </section>
 </section>
 <button id="snelButtonOpen" onclick="snelOpen()">snel reserveren</button>
