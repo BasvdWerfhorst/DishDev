@@ -33,10 +33,10 @@
                     fill="currentColor" fill-rule="evenodd"/>
             </svg>
             <section id="instelMogelijkheden">
-                <figure id="lightdark" onclick="changeMode()" >&#127765</figure>
+                <img src="img/pngtree-dark-mode-icon-light-png-clipart-png-image.png" onclick="changeMode()" alt="">
             </section>
         </button>
-        
+        <!-- <figure id="lightdark" onclick="changeMode()" >&#127765</figure> -->
         <button id="hamburger-menu" aria-label="Menu openen">
             <span></span>
             <span></span>
