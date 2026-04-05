@@ -31,7 +31,7 @@
     --indexbtncolor: #36395d; 
     --elementGreen: #7b7b7b; 
     --elementGreen2: #4c5054;   
-    --yelGreen: #4c5054; 
+    --yelGreen: #8e9399; 
 }
 
 
@@ -1373,7 +1373,7 @@ header {
     width: clamp(50px, 7.3vw, 100px);
     height: clamp(50px, 6vh, 100px);
     transition: transform 0.1s;
-    background-color: var(--elementGreen);
+    background-color: var(--elementGreen2);
     box-shadow: 0px 0px 5px 0px black;
     border: solid black 1px;
     border-radius: 1vh;
@@ -1383,7 +1383,7 @@ header {
     background-color:black;
 } */
 .personenLabel:has(.radioPersonen:checked) {
-    background-color: var(--elementGreen2);
+    background-color: var(--yelGreen);
     box-shadow: 0px 1px 6px 2px black;
 }
 #persoonAantal {
