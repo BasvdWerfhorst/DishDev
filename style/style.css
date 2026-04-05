@@ -16,6 +16,7 @@
     --indexbtncolor: #39BE05;
     --elementGreen: #3CF354;
     --elementGreen2: #0A9E0D;
+    --yelGreen: yellowgreen;
 }
 
 :root[data-theme="dark"] {
@@ -29,7 +30,8 @@
     --blacktext-color: white;
     --indexbtncolor: #36395d; 
     --elementGreen: #7b7b7b; 
-    --elementGreen2: #4c5054;    
+    --elementGreen2: #4c5054;   
+    --yelGreen: #4c5054; 
 }
 
 
@@ -65,7 +67,7 @@ header {
   position: absolute;
   top: 100%;
   right: 0;
-  background: greenyellow;
+  background: var(--elementGreen2);
   border-radius: 1vw;
   padding: 1vw;
   padding-left : 2vw;
@@ -127,7 +129,7 @@ header {
 } 
 
  .navLinks a:hover {
-    color: greenyellow;
+    color: var(--yelGreen);
 }
 
 .navLinks {
@@ -149,7 +151,7 @@ header {
 }
 
 .logo-Text:hover {
-    color: greenyellow;
+    color: var(--yelGreen);
 }
 #hamburger-menu {
     display: none;
@@ -181,7 +183,7 @@ header {
 }
 
 .logo-Text:hover {
-    color: greenyellow;
+    color: var(--yelGreen);
 }
 
 /* Header Nav */
@@ -201,7 +203,7 @@ footer {
     color: var(--whitetext-color);
 }
 #footer-container a:hover {
-    color: greenyellow;
+    color: var(--yelGreen);
 }
 #footerILink {
     text-decoration: none;
@@ -615,7 +617,7 @@ footer {
   }
 
   #mainpage-resbutton:hover {
-    color: greenyellow;
+    color: var(--yelGreen);
 }
 
 
@@ -896,7 +898,7 @@ footer {
 }
 
 #mainpage-resbutton:hover {
-    color: greenyellow;
+    color: var(--yelGreen);
 }
 
 
@@ -1215,7 +1217,7 @@ header {
 }
 
 #mainpage-resbutton:hover {
-    color: greenyellow;
+    color: var(--yelGreen);
 }
 
 
