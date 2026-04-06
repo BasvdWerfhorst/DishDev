@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dit is een website genaamd Vegan Food Amsterdam, gewijd aan het ontdekken van veganistisch eten in Amsterdam. We delen informatie, tips en gidsen over plantaardig eten en de lokale veganistische scene.">
-    <meta name="keywords" content="vegan, vegatarish, vega amsterdam, vegan food amsterdam, vegan restaurant amsterdam, plant based restaurant amsterdam, vegan dining amsterdam, vegan food in amsterdam, vegan cuisine amsterdam, vegan menu amsterdam, vegan cafe amsterdam, plant based food amsterdam, vegan lunch amsterdam, vegan dinner amsterdam, healthy vegan food amsterdam, vegan takeaway amsterdam, vegan restaurant netherlands">
+    <meta name="keywords" content="vegan food amsterdam, vegan restaurant amsterdam, plantaardig eten amsterdam, vegan dining, plant-based restaurant, plant-based food amsterdam, vegan cuisine amsterdam, vegan cafe amsterdam, healthy vegan food, vegan takeaway amsterdam, vegan restaurant netherlands, vegan amsterdam, vegan lunch amsterdam, vegan dinner amsterdam, vegetarisch amsterdam, plantaardig restaurant">
     <meta name="author" content="Wessel & Bas">
 
     <title>Vegan Food Amsterdam</title>
@@ -26,7 +26,7 @@
     <main>
 <div class="slideshow">
   <img class="slide" src="img\Vibrant plant-based dining in Amsterdam.png" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
-  <img class="slide" src="img\img3 slideshow.jpg" alt="slideshow Vega   n Food" title=" slideshow Vegan Food">
+  <img class="slide" src="img\img3 slideshow.jpg" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
   <img class="slide" src="img\Img slideshow.jpg" alt="slideshow Vegan Food" title=" slideshow Vegan Food">
 </div>
     <article class="mainpage-colorchange">
@@ -34,7 +34,7 @@
             <article id="aboutarticle">
             
                 <p id="About-text">Het restaurant begon als een kleine pop-up in een geleende keuken, waar plantaardige maaltijden werden bereid voor vrienden en nieuwsgierige voorbijgangers. De overtuiging dat veganistisch eten troostrijk moet zijn, zorgde voor een trouwe klantenkring. Jaren later werd het een vaste plek – eenvoudig, seizoensgebonden en gebouwd op het idee dat lekker eten gewoonten op een subtiele manier kan veranderen. Bekijk hieronder een paar van onze gerechten:</p>
-                <img src="img\Jamaican-Jerk-Bowl.jpg" id="about-us-img">
+                <img src="img\Jamaican-Jerk-Bowl.jpg" id="about-us-img" alt="Afbeelding van een Jamaican Jerk Bowl gerecht met plantaardige ingrediënten">
             </article>
         </article>
     </article>

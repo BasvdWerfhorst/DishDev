@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="nl" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a site called Vegan Food Amsterdam, dedicated to exploring vegan food in Amsterdam, sharing information, tips, and guides about plant-based dining and the local vegan scene.">
-    <meta name="keywords" content="vegan, vegatarish, vega amsterdam, vegan food amsterdam, vegan restaurant amsterdam, plant based restaurant amsterdam, vegan dining amsterdam, vegan food in amsterdam, vegan cuisine amsterdam, vegan menu amsterdam, vegan cafe amsterdam, plant based food amsterdam, vegan lunch amsterdam, vegan dinner amsterdam, healthy vegan food amsterdam, vegan takeaway amsterdam, vegan restaurant netherlands">
-    <meta name="author" content="Wessel & Bas">
-    <title>Vegan Food Amsterdam</title>
+    <meta name="description" content="Reserveer een tafel bij Vegan Food Amsterdam en geniet van heerlijke plantaardige gerechten. Makkelijk online reserveren voor je vegan dinerervaring in Amsterdam.">
+    <meta name="keywords" content="reserveren amsterdam, tafel reserveren, vegan restaurant reserveren, reservering amsterdam, diner reserveren, plantaardig restaurant, vegan food amsterdam, restaurant amsterdam, online reserveren, tafelreservering, vegan dining amsterdam, vegan dinner amsterdam, vegan lunch amsterdam, plant-based restaurant amsterdam, eten reserveren amsterdam">
+    <meta name="author" content="Bas">
+    <title>Reserveren - Vegan Food Amsterdam</title>
        
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="Darkmode js\hamburger.css">

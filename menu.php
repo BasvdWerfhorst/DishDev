@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="nl" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="This is a site called Vegan Food Amsterdam, dedicated to exploring vegan food in Amsterdam, sharing information, tips, and guides about plant-based dining and the local vegan scene.">
-    <meta name="keywords" content="vegan, vegatarish, vega amsterdam, vegan food amsterdam, vegan restaurant amsterdam, plant based restaurant amsterdam, vegan dining amsterdam, vegan food in amsterdam, vegan cuisine amsterdam, vegan menu amsterdam, vegan cafe amsterdam, plant based food amsterdam, vegan lunch amsterdam, vegan dinner amsterdam, healthy vegan food amsterdam, vegan takeaway amsterdam, vegan restaurant netherlands">
-    <meta name="author" content="Wessel & Bas">
+    <meta name="description" content="Bekijk ons uitgebreide menu van plantaardige gerechten bij Vegan Food Amsterdam. Van voorgerechten en hoofdgerechten tot desserts en dranken – ontdek onze heerlijke vegan recepten.">
+    <meta name="keywords" content="vegan menu amsterdam, plantaardig menu, vegan gerechten amsterdam, vegan restaurant menu, vegetarisch eten amsterdam, vegan eten amsterdam, plantaardige recepten, vegan cafe menu, vegan dining amsterdam, vegan food menu, vegan restaurant netherlands, vegan lunch amsterdam, vegan dinner amsterdam, plant-based menu amsterdam, healthy vegan food, vegan recepten amsterdam">
+    <meta name="author" content="Bas">
 
-    <title>Vegan Food Amsterdam</title>
+    <title>Menu - Vegan Food Amsterdam</title>
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="Darkmode js\hamburger.css">
     <script src="lib/menu.js" defer></script>
-    <script src="Darkmode js\darkmode.js" defer></script>
-    <script src="Darkmode js\Hamburger Menu.js" defer></script>
+    <script src="Darkmode js/darkmode.js" defer></script>
+    <script src="Darkmode js/Hamburger Menu.js" defer></script>
     <script src="lib/instelingen.js" defer></script>
 
     <link rel="icon" type="image/x-icon" href="img\Icon2.png">
@@ -59,7 +59,7 @@
             </section>
         </section>
     </section>
-    
+
     <br>
 
     <article class="menuHeaderRow">

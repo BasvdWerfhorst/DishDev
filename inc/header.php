@@ -1,5 +1,4 @@
 
-
 <section class="navBar">
     <picture class="logo img">
         <img src="img/logo_vegan_food_plaatje.png" alt="Vegan food logo">  
@@ -33,7 +32,7 @@
                     fill="currentColor" fill-rule="evenodd"/>
             </svg>
             <section id="instelMogelijkheden">
-                <img src="img/pngtree-dark-mode-icon-light-png-clipart-png-image.png" onclick="changeMode()" alt="">
+                <img src="img/pngtree-dark-mode-icon-light-png-clipart-png-image.png" onclick="changeMode()" alt="Dark mode toggle icoon">
             </section>
         </button>
         <!-- <figure id="lightdark" onclick="changeMode()" >&#127765</figure> -->

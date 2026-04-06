@@ -1,5 +1,5 @@
 <section id="footer-container">
-    <a href="index.php" id="footerILink"><article class="gridBoxes" id="footerGrid1">Vegen Food   Amsterdam</article></a>
+    <a href="index.php" id="footerILink"><article class="gridBoxes" id="footerGrid1">Vegan Food   Amsterdam</article></a>
     <article class="gridBoxes" id="footerGrid2">Handige Links</article>
     <article class="gridBoxes" id="footerGrid3">Gemaakt door:</article>
     <article class="gridBoxes" id="footerGrid4">Deze website claimt geen eigendomsrechten op het getoonde auteursrechtelijk beschermde materiaal, tenzij anders vermeld. Alle inhoud, inclusief afbeeldingen, tekst, video's en andere media, behoort toe aan de respectievelijke eigenaren.</article>
