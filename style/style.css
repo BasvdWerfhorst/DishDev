@@ -63,15 +63,16 @@ header {
     align-items: center;
 }
 #instelMogelijkheden {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background: var(--elementGreen2);
-  border-radius: 1vw;
-  padding: 1vw;
-  padding-left : 2vw;
-  padding-right: 2vw;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--hdftcolorbg);
+    border-radius: 1vw;
+    padding: 1vw;
+    padding-left : 2vw;
+    padding-right: 2vw;
+    box-shadow: 5px 10px 20px black inset;      
 }
 
 #instelMogelijkheden.open {
@@ -1027,20 +1028,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
@@ -1331,8 +1318,6 @@ header {
 .subheader-links {
     text-decoration: none;
 }
-
-
 
 
 }

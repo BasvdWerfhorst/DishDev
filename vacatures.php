@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="Darkmode js\hamburger.css">
     <script src="Darkmode js\darkmode.js" defer></script>
     <script src="Darkmode js\Hamburger Menu.js" defer></script>
+    <script src="lib/instelingen.js" defer></script>
 
     <link rel="icon" type="image/x-icon" href="img\Icon2.png">
 </head>

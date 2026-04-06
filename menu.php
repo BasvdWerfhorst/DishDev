@@ -59,7 +59,7 @@
             </section>
         </section>
     </section>
-    <!-- glutten vrij en vega tekens bij elke b enodigde product plaatsen -->
+    
     <br>
 
     <article class="menuHeaderRow">
